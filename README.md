@@ -9,7 +9,7 @@
     - [Ports](#Ports)
     - [Screenshots](#Screenshots)
     - [Technologies](#Technologies)
-    - [Files / directories](#Files / directories)
+    - [Files/directories](#Files/directories)
     - [Secrets](#Secrets)
     - [Buckets](#Buckets)
     - [Git](#Git)
@@ -26,7 +26,7 @@
     - [HTTP Parameter Pollution](#)
     - [Insecure Deserialization](#)
     - [Insecure Direct Object References](#)
-    - [JSON Web Token](#)
+    - [JSON Web Token](#JSON Web Token)
     - [Open Redirect](#)
     - [Race Condition](#)
     - [Request Smuggling](#)
@@ -39,13 +39,11 @@
 
 ---
 
-## xxx
+## Exploitation
 
 Lorem ipsum dolor sit amet
 
-- [foo](#foo)
-
-    ### xexexe
+    ### JSON Web Token
 
     Lorem ipsum dolor sit amet
 
