@@ -4,9 +4,39 @@
 
 ## Contents
 
-- [xxx](#xxx)
-    - [xexexe](#xexexe)
-    
+- [Recon](#Recon)
+    - [Subdomains](#Subdomains)
+    - [Ports](#Ports)
+    - [Screenshots](#Screenshots)
+    - [Technologies](#Technologies)
+    - [Files / directories](#Files / directories)
+    - [Secrets](#Secrets)
+    - [Buckets](#Buckets)
+    - [Git](#Git)
+
+- [Exploitation](#Exploitation)
+    - [CMS](#)
+    - [Command Injection](#)
+    - [CORS Misconfiguration](#)
+    - [CRLF Injection](#)
+    - [CSRF Injection](#)
+    - [Directory Traversal](#)
+    - [File Inclusion](#)
+    - [GraphQL Injection](#)
+    - [HTTP Parameter Pollution](#)
+    - [Insecure Deserialization](#)
+    - [Insecure Direct Object References](#)
+    - [JSON Web Token](#)
+    - [Open Redirect](#)
+    - [Race Condition](#)
+    - [Request Smuggling](#)
+    - [Server Side Request Forgery](#)
+    - [SQL Injection](#)
+    - [Subdomain takeover](#)
+    - [XSS Injection](#)
+    - [XXE Injection](#)
+
+
 ---
 
 ## xxx
