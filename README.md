@@ -15,19 +15,18 @@
     - [Git](#Git)
 
 - [Exploitation](#Exploitation)
-    - [Command Injection](#)
+    - [Command Injection](#Command-Injection)
     - [CORS Misconfiguration](#CORS-Misconfiguration)
     - [CRLF Injection](#CRLF-Injection)
     - [CSRF Injection](#CSRF-Injection)
     - [Directory Traversal](#Directory-Traversal)
-    - [File Inclusion](#)
+    - [File Inclusion](#File-Inclusion)
     - [GraphQL Injection](GraphQL-Injection)
     - [Header Injection](#Header-Injection)
-    - [HTTP Parameter Pollution](#)
-    - [Insecure Deserialization](#)
-    - [Insecure Direct Object References](#)
+    - [Insecure Deserialization](#Insecure-Deserialization)
+    - [Insecure Direct Object References](#Insecure-Direct-Object-References)
     - [Open Redirect](#Open-Redirect)
-    - [Race Condition](#)
+    - [Race Condition](#Race-Condition)
     - [Request Smuggling](#Request-Smuggling)
     - [Server Side Request Forgery](#Server-Side-Request-Forgery)
     - [SQL Injection](#SQL-Injection)
@@ -46,11 +45,16 @@
 
 Lorem ipsum dolor sit amet
 
+### Command Injection
+
+- [commix](https://github.com/commixproject/commix) - Automated All-in-One OS command injection and exploitation tool.
+
 ### CORS Misconfiguration
 
 - [Corsy](https://github.com/s0md3v/Corsy) - CORS Misconfiguration Scanner
 - [CORStest](https://github.com/RUB-NDS/CORStest) - A simple CORS misconfiguration scanner
 - [cors-scanner](https://github.com/laconicwolf/cors-scanner) - A multi-threaded scanner that helps identify CORS flaws/misconfigurations
+- [CorsMe](https://github.com/Shivangx01b/CorsMe) - Cross Origin Resource Sharing MisConfiguration Scanner
 
 ### CRLF Injection
 
@@ -69,6 +73,14 @@ Lorem ipsum dolor sit amet
 - [off-by-slash](https://github.com/bayotop/off-by-slash) - Burp extension to detect alias traversal via NGINX misconfiguration at scale.
 - [liffier](https://github.com/momenbasel/liffier) - tired of manually add dot-dot-slash to your possible path traversal? this short snippet will increment ../ on the URL.
 
+### File Inclusion
+
+- [liffy](https://github.com/mzfr/liffy) - Local file inclusion exploitation tool
+- [Burp-LFI-tests](https://github.com/Team-Firebugs/Burp-LFI-tests) - Fuzzing for LFI using Burpsuite
+- [LFI-Enum](https://github.com/mthbernardes/LFI-Enum) - Scripts to execute enumeration via LFI
+- [LFISuite](https://github.com/D35m0nd142/LFISuite) - Totally Automatic LFI Exploiter (+ Reverse Shell) and Scanner
+- [LFI-files](https://github.com/hussein98d/LFI-files) - Wordlist to bruteforce for LFI
+
 ### GraphQL Injection
 
 - [inql](https://github.com/doyensec/inql) - InQL - A Burp Extension for GraphQL Security Testing
@@ -81,15 +93,37 @@ Lorem ipsum dolor sit amet
 
 - [headi](https://github.com/mlcsec/headi) - Customisable and automated HTTP header injection.
 
+### Insecure Deserialization
+
+- [ysoserial](https://github.com/frohoff/ysoserial) - A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization.
+- [GadgetProbe](https://github.com/BishopFox/GadgetProbe) - Probe endpoints consuming Java serialized objects to identify classes, libraries, and library versions on remote Java classpaths.
+- [ysoserial.net](https://github.com/pwntester/ysoserial.net) - Deserialization payload generator for a variety of .NET formatters
+- [phpggc](https://github.com/ambionics/phpggc) - PHPGGC is a library of PHP unserialize() payloads along with a tool to generate them, from command line or programmatically.
+
+### Insecure Direct Object References
+
+- [Autorize](https://github.com/Quitten/Autorize) - Automatic authorization enforcement detection extension for burp suite written in Jython developed by Barak Tawily
+
 ### Open Redirect
 
 - [Oralyzer](https://github.com/r0075h3ll/Oralyzer) - Open Redirection Analyzer
 - [Injectus](https://github.com/BountyStrike/Injectus) - CRLF and open redirect fuzzer
 - [dom-red](https://github.com/Naategh/dom-red) - Small script to check a list of domains against open redirect vulnerability
 
+### Race Condition
+
+- [razzer](https://github.com/compsec-snu/razzer) - A Kernel fuzzer focusing on race bugs
+- [racepwn](https://github.com/racepwn/racepwn) - Race Condition framework
+- [requests-racer](https://github.com/nccgroup/requests-racer) - Small Python library that makes it easy to exploit race conditions in web apps with Requests.
+- [turbo-intruder](https://github.com/PortSwigger/turbo-intruder) - Turbo Intruder is a Burp Suite extension for sending large numbers of HTTP requests and analyzing the results.
+- [race-the-web](https://github.com/TheHackerDev/race-the-web) - Tests for race conditions in web applications. Includes a RESTful API to integrate into a continuous integration pipeline.
+
 ### Request Smuggling
 
 - [http-request-smuggling](https://github.com/anshumanpattnaik/http-request-smuggling) - HTTP Request Smuggling Detection Tool
+- [smuggler](https://github.com/defparam/smuggler) - Smuggler - An HTTP Request Smuggling / Desync testing tool written in Python 3
+- [h2csmuggler](https://github.com/BishopFox/h2csmuggler) - HTTP Request Smuggling over HTTP/2 Cleartext (h2c)
+- [tiscripts](https://github.com/defparam/tiscripts) - These scripts I use to create Request Smuggling Desync payloads for CLTE and TECL style attacks.
 
 ### Server Side Request Forgery
 
@@ -123,6 +157,8 @@ Lorem ipsum dolor sit amet
 - [BurpSQLTruncSanner](https://github.com/InitRoot/BurpSQLTruncSanner) - Messy BurpSuite plugin for SQL Truncation vulnerabilities.
 - [andor](https://github.com/sadicann/andor) - Blind SQL Injection Tool with Golang
 - [Blinder](https://github.com/mhaskar/Blinder) - A python library to automate time-based blind SQL injection
+- [sqliv](https://github.com/the-robot/sqliv) - massive SQL injection vulnerability scanner
+- [nosqli](https://github.com/Charlie-belmer/nosqli) - NoSql Injection CLI tool, for finding vulnerable websites using MongoDB.
 
 ### XSS Injection
 
@@ -194,6 +230,8 @@ Lorem ipsum dolor sit amet
 - [jwt-heartbreaker](https://github.com/wallarm/jwt-heartbreaker) - The Burp extension to check JWT (JSON Web Tokens) for using keys from known from public sources
 - [jwtear](https://github.com/KINGSABRI/jwtear) - Modular command-line tool to parse, create and manipulate JWT tokens for hackers
 - [jwt-key-id-injector](https://github.com/dariusztytko/jwt-key-id-injector) - Simple python script to check against hypothetical JWT vulnerability.
+- [jwt-hack](https://github.com/hahwul/jwt-hack) - jwt-hack is tool for hacking / security testing to JWT.
+- [jwt-cracker](https://github.com/lmammino/jwt-cracker) - Simple HS256 JWT token brute force cracker
 
 ### postMessage
 
