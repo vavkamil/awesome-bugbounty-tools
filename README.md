@@ -5,7 +5,7 @@
 ## Contents
 
 - [Recon](#Recon)
-    - [Subdomains](#Subdomains)
+    - [DNS](#DNS)
     - [Ports](#Ports)
     - [Screenshots](#Screenshots)
     - [Technologies](#Technologies)
@@ -37,7 +37,106 @@
     - [CMS](#)
     - [JSON Web Token](#JSON-Web-Token)
     - [postMessage](#postMessage)
-    - [Subdomain takeover](#)
+    - [Subdomain Takeover](#Subdomain-Takeover)
+
+---
+
+## Recon
+
+Lorem ipsum dolor sit amet
+
+### DNS
+
+- []() - 
+- []() - 
+- []() - 
+- []() - 
+- []() - 
+
+### Ports
+
+- [masscan](https://github.com/robertdavidgraham/masscan) - TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes.
+- [RustScan](https://github.com/RustScan/RustScan) - The Modern Port Scanner
+- [naabu](https://github.com/projectdiscovery/naabu) - A fast port scanner written in go with focus on reliability and simplicity.
+- [nmap](https://github.com/nmap/nmap) - Nmap - the Network Mapper. Github mirror of official SVN repository.
+- [sandmap](https://github.com/trimstray/sandmap) - Nmap on steroids. Simple CLI with the ability to run pure Nmap engine, 31 modules with 459 scan profiles.
+
+### Screenshots
+
+- [EyeWitness](https://github.com/FortyNorthSecurity/EyeWitness) - EyeWitness is designed to take screenshots of websites, provide some server header info, and identify default credentials if possible.
+- [screenshoteer](https://github.com/vladocar/screenshoteer) - Make website screenshots and mobile emulations from the command line.
+- [gowitness](https://github.com/sensepost/gowitness) - gowitness - a golang, web screenshot utility using Chrome Headless
+- [WitnessMe](https://github.com/byt3bl33d3r/WitnessMe) - Web Inventory tool, takes screenshots of webpages using Pyppeteer (headless Chrome/Chromium) and provides some extra bells & whistles to make life easier.
+- [eyeballer](https://github.com/BishopFox/eyeballer) - Convolutional neural network for analyzing pentest screenshots
+- [scrying](https://github.com/nccgroup/scrying) - A tool for collecting RDP, web and VNC screenshots all in one place
+- [Depix](https://github.com/beurtschipper/Depix) - Recovers passwords from pixelized screenshots
+- [httpscreenshot](https://github.com/breenmachine/httpscreenshot/) - HTTPScreenshot is a tool for grabbing screenshots and HTML of large numbers of websites.
+
+### Technologies
+
+- [wappalyzer](https://github.com/AliasIO/wappalyzer) - Identify technology on websites.
+- [webanalyze](https://github.com/rverton/webanalyze) - Port of Wappalyzer (uncovers technologies used on websites) to automate mass scanning.
+- [python-builtwith](https://github.com/claymation/python-builtwith) - BuiltWith API client
+- [whatweb](https://github.com/urbanadventurer/whatweb) - Next generation web scanner
+- [retire.js](https://github.com/RetireJS/retire.js) - scanner detecting the use of JavaScript libraries with known vulnerabilities
+
+### Files/directories
+
+- []() - 
+- []() - 
+- []() - 
+- []() - 
+- []() - 
+
+### Secrets
+
+- [git-secrets](https://github.com/awslabs/git-secrets) - Prevents you from committing secrets and credentials into git repositories
+- [gitleaks](https://github.com/zricethezav/gitleaks) - Scan git repos (or files) for secrets using regex and entropy
+- [truffleHog](https://github.com/dxa4481/truffleHog) - Searches through git repositories for high entropy strings and secrets, digging deep into commit history
+- [gitGraber](https://github.com/hisxo/gitGraber) - gitGraber: monitor GitHub to search and find sensitive data in real time for different online services
+- [talisman](https://github.com/thoughtworks/talisman) - By hooking into the pre-push hook provided by Git, Talisman validates the outgoing changeset for things that look suspicious - such as authorization tokens and private keys.
+- [GitGot](https://github.com/BishopFox/GitGot) - Semi-automated, feedback-driven tool to rapidly search through troves of public data on GitHub for sensitive secrets.
+- [git-all-secrets](https://github.com/anshumanbh/git-all-secrets) - A tool to capture all the git secrets by leveraging multiple open source git searching tools
+- [github-search](https://github.com/gwen001/github-search) - Tools to perform basic search on GitHub.
+- [git-vuln-finder](https://github.com/cve-search/git-vuln-finder) - Finding potential software vulnerabilities from git commit messages
+- [commit-stream](https://github.com/x1sec/commit-stream) - #OSINT tool for finding Github repositories by extracting commit logs in real time from the Github event API
+- [gitrob](https://github.com/michenriksen/gitrob) - Reconnaissance tool for GitHub organizations
+- [repo-supervisor](https://github.com/auth0/repo-supervisor) - Scan your code for security misconfiguration, search for passwords and secrets.
+- [GitMiner](https://github.com/UnkL4b/GitMiner) - Tool for advanced mining for content on Github
+- [shhgit](https://github.com/eth0izzle/shhgit) - Ah shhgit! Find GitHub secrets in real time
+- [detect-secrets](https://github.com/Yelp/detect-secrets) - An enterprise friendly way of detecting and preventing secrets in code.
+- [rusty-hog](https://github.com/newrelic/rusty-hog) - A suite of secret scanners built in Rust for performance. Based on TruffleHog
+- [whispers](https://github.com/Skyscanner/whispers) - Identify hardcoded secrets and dangerous behaviours
+- [yar](https://github.com/nielsing/yar) - Yar is a tool for plunderin' organizations, users and/or repositories.
+- [dufflebag](https://github.com/BishopFox/dufflebag) - Search exposed EBS volumes for secrets
+- [secret-bridge](https://github.com/duo-labs/secret-bridge) - Monitors Github for leaked secrets
+
+### Git
+
+- [GitTools](https://github.com/internetwache/GitTools) - A repository with 3 tools for pwn'ing websites with .git repositories available
+- [gitjacker](https://github.com/liamg/gitjacker) - Leak git repositories from misconfigured websites
+- [git-dumper](https://github.com/arthaud/git-dumper) - A tool to dump a git repository from a website
+- [GitHunter](https://github.com/digininja/GitHunter) - A tool for searching a Git repository for interesting content
+- [dvcs-ripper](https://github.com/kost/dvcs-ripper) - Rip web accessible (distributed) version control systems: SVN/GIT/HG...
+
+### Buckets
+
+- [S3Scanner](https://github.com/sa7mon/S3Scanner) - Scan for open AWS S3 buckets and dump the contents
+- [AWSBucketDump](https://github.com/jordanpotti/AWSBucketDump) - Security Tool to Look For Interesting Files in S3 Buckets
+- [CloudScraper](https://github.com/jordanpotti/CloudScraper) - CloudScraper: Tool to enumerate targets in search of cloud resources. S3 Buckets, Azure Blobs, Digital Ocean Storage Space.
+- [s3viewer](https://github.com/SharonBrizinov/s3viewer) - Publicly Open Amazon AWS S3 Bucket Viewer
+- [festin](https://github.com/cr0hn/festin) - FestIn - S3 Bucket Weakness Discovery
+- [s3reverse](https://github.com/hahwul/s3reverse) - The format of various s3 buckets is convert in one format. for bugbounty and security testing.
+- [mass-s3-bucket-tester](https://github.com/random-robbie/mass-s3-bucket-tester) - This tests a list of s3 buckets to see if they have dir listings enabled or if they are uploadable
+- [S3BucketList](https://github.com/AlecBlance/S3BucketList) - Firefox plugin that lists Amazon S3 Buckets found in requests
+- [dirlstr](https://github.com/cybercdh/dirlstr) - Finds Directory Listings or open S3 buckets from a list of URLs
+- [Burp-AnonymousCloud](https://github.com/codewatchorg/Burp-AnonymousCloud) - Burp extension that performs a passive scan to identify cloud buckets and then test them for publicly accessible vulnerabilities
+- [kicks3](https://github.com/abuvanth/kicks3) - S3 bucket finder from html,js and bucket misconfiguration testing tool
+- [2tearsinabucket](https://github.com/Revenant40/2tearsinabucket) - Enumerate s3 buckets for a specific target.
+- [s3_objects_check](https://github.com/nccgroup/s3_objects_check) - Whitebox evaluation of effective S3 object permissions, to identify publicly accessible files.
+- [s3tk](https://github.com/ankane/s3tk) - A security toolkit for Amazon S3
+
+
 
 ---
 
@@ -211,6 +310,8 @@ Lorem ipsum dolor sit amet
 - [oxml_xxe](https://github.com/BuffaloWill/oxml_xxe) - A tool for embedding XXE/XML exploits into different filetypes
 - [metahttp](https://github.com/vp777/metahttp) - A bash script that automates the scanning of a target network for HTTP resources through XXE
 
+---
+
 ## Miscellaneous
 
 Lorem ipsum dolor sit amet
@@ -238,13 +339,22 @@ Lorem ipsum dolor sit amet
 - [postMessage-tracker](https://github.com/fransr/postMessage-tracker) - A Chrome Extension to track postMessage usage (url, domain and stack) both by logging using CORS and also visually as an extension-icon
 - [PostMessage_Fuzz_Tool](https://github.com/kiranreddyrebel/PostMessage_Fuzz_Tool) - #BugBounty #BugBounty Tools #WebDeveloper Tool
 
+### Subdomain Takeover
 
+### CVEs
 
+- [retire.js](https://github.com/RetireJS/retire.js) - scanner detecting the use of JavaScript libraries with known vulnerabilities
+- [getsploit](https://github.com/vulnersCom/getsploit) - Command line utility for searching and downloading exploits
+- [Findsploit](https://github.com/1N3/Findsploit) - Find exploits in local and online databases instantly
+- [struts-pwn](https://github.com/mazen160/struts-pwn) - An exploit for Apache Struts CVE-2017-5638
+
+---
 
 ## Contribute
 
 Contributions welcome! Read the [contribution guidelines](contributing.md) first.
 
+---
 
 ## License
 
