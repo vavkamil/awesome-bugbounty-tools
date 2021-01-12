@@ -15,28 +15,30 @@
     - [Git](#Git)
 
 - [Exploitation](#Exploitation)
-    - [CMS](#)
     - [Command Injection](#)
-    - [CORS Misconfiguration](#CORS Misconfiguration)
-    - [CRLF Injection](#CRLF Injection)
-    - [CSRF Injection](#CSRF Injection)
-    - [Directory Traversal](#)
+    - [CORS Misconfiguration](#CORS-Misconfiguration)
+    - [CRLF Injection](#CRLF-Injection)
+    - [CSRF Injection](#CSRF-Injection)
+    - [Directory Traversal](#Directory-Traversal)
     - [File Inclusion](#)
-    - [GraphQL Injection](GraphQL Injection)
+    - [GraphQL Injection](GraphQL-Injection)
+    - [Header Injection](#Header-Injection)
     - [HTTP Parameter Pollution](#)
     - [Insecure Deserialization](#)
     - [Insecure Direct Object References](#)
-    - [JSON Web Token](#JSON Web Token)
     - [Open Redirect](#)
-    - [postMessage](#postMessage)
     - [Race Condition](#)
-    - [Request Smuggling](#)
-    - [Server Side Request Forgery](#Server Side Request Forgery)
-    - [SQL Injection](#SQL Injection)
-    - [Subdomain takeover](#)
+    - [Request Smuggling](#Request-Smuggling)
+    - [Server Side Request Forgery](#Server-Side-Request-Forgery)
+    - [SQL Injection](#SQL-Injection)
     - [XSS Injection](#)
-    - [XXE Injection](#XXE Injection)
+    - [XXE Injection](#XXE-Injection)
 
+- [Miscellaneous](#Miscellaneous)
+    - [CMS](#)
+    - [JSON Web Token](#JSON-Web-Token)
+    - [postMessage](#postMessage)
+    - [Subdomain takeover](#)
 
 ---
 
@@ -46,15 +48,11 @@ Lorem ipsum dolor sit amet
 
 ### CORS Misconfiguration
 
-Lorem ipsum dolor sit amet
-
 - [Corsy](https://github.com/s0md3v/Corsy) - CORS Misconfiguration Scanner
 - [CORStest](https://github.com/RUB-NDS/CORStest) - A simple CORS misconfiguration scanner
 - [cors-scanner](https://github.com/laconicwolf/cors-scanner) - A multi-threaded scanner that helps identify CORS flaws/misconfigurations
 
 ### CRLF Injection
-
-Lorem ipsum dolor sit amet
 
 - [crlfuzz](https://github.com/dwisiswant0/crlfuzz) - A fast tool to scan CRLF vulnerability written in Go
 - [CRLF-Injection-Scanner](https://github.com/MichaelStott/CRLF-Injection-Scanner) - Command line tool for testing CRLF injection on a list of domains.
@@ -62,39 +60,32 @@ Lorem ipsum dolor sit amet
 
 ### CSRF Injection
 
-Lorem ipsum dolor sit amet
-
 - [XSRFProbe](https://github.com/0xInfection/XSRFProbe) -The Prime Cross Site Request Forgery (CSRF) Audit and Exploitation Toolkit.
 
-### GraphQL Injection
+### Directory Traversal
 
-Lorem ipsum dolor sit amet
+- [dotdotpwn](https://github.com/wireghoul/dotdotpwn) - DotDotPwn - The Directory Traversal Fuzzer
+- [FDsploit](https://github.com/chrispetrou/FDsploit) - File Inclusion & Directory Traversal fuzzing, enumeration & exploitation tool.
+- [off-by-slash](https://github.com/bayotop/off-by-slash) - Burp extension to detect alias traversal via NGINX misconfiguration at scale.
+- [liffier](https://github.com/momenbasel/liffier) - tired of manually add dot-dot-slash to your possible path traversal? this short snippet will increment ../ on the URL.
+
+### GraphQL Injection
 
 - [inql](https://github.com/doyensec/inql) - InQL - A Burp Extension for GraphQL Security Testing
 - [GraphQLmap](https://github.com/swisskyrepo/GraphQLmap) - GraphQLmap is a scripting engine to interact with a graphql endpoint for pentesting purposes.
 - [shapeshifter](https://github.com/szski/shapeshifter) - GraphQL security testing tool
 - [graphql_beautifier](https://github.com/zidekmat/graphql_beautifier) - Burp Suite extension to help make Graphql request more readable
+- [clairvoyance](https://github.com/nikitastupin/clairvoyance) - Obtain GraphQL API schema despite disabled introspection!
 
-### JSON Web Token
+### Header Injection
 
-Lorem ipsum dolor sit amet
+- [headi](https://github.com/mlcsec/headi) - Customisable and automated HTTP header injection.
 
-- [jwt_tool](https://github.com/ticarpi/jwt_tool) - A toolkit for testing, tweaking and cracking JSON Web Tokens
-- [c-jwt-cracker](https://github.com/brendan-rius/c-jwt-cracker) - JWT brute force cracker written in C
-- [jwt-heartbreaker](https://github.com/wallarm/jwt-heartbreaker) - The Burp extension to check JWT (JSON Web Tokens) for using keys from known from public sources
-- [jwtear](https://github.com/KINGSABRI/jwtear) - Modular command-line tool to parse, create and manipulate JWT tokens for hackers
-- [jwt-key-id-injector](https://github.com/dariusztytko/jwt-key-id-injector) - Simple python script to check against hypothetical JWT vulnerability.
+### Request Smuggling
 
-### postMessage
-
-Lorem ipsum dolor sit amet
-
-- [postMessage-tracker](https://github.com/fransr/postMessage-tracker) - A Chrome Extension to track postMessage usage (url, domain and stack) both by logging using CORS and also visually as an extension-icon
-- [PostMessage_Fuzz_Tool](https://github.com/kiranreddyrebel/PostMessage_Fuzz_Tool) - #BugBounty #BugBounty Tools #WebDeveloper Tool
+- [http-request-smuggling](https://github.com/anshumanpattnaik/http-request-smuggling) - HTTP Request Smuggling Detection Tool
 
 ### Server Side Request Forgery
-
-Lorem ipsum dolor sit amet
 
 - [SSRFmap](https://github.com/swisskyrepo/SSRFmap) - Automatic SSRF fuzzer and exploitation tool
 - [Gopherus](https://github.com/tarunkant/Gopherus) - This tool generates gopher link for exploiting SSRF and gaining RCE in various servers
@@ -109,10 +100,9 @@ Lorem ipsum dolor sit amet
 - [ssrfDetector](https://github.com/JacobReynolds/ssrfDetector) - Server-side request forgery detector
 - [grafana-ssrf](https://github.com/RandomRobbieBF/grafana-ssrf) - Authenticated SSRF in Grafana
 - [sentrySSRF](https://github.com/xawdxawdx/sentrySSRF) - Tool to searching sentry config on page or in javascript files and check blind SSRF
+- [lorsrf](https://github.com/knassar702/lorsrf) - Bruteforcing on Hidden parameters to find SSRF vulnerability using GET and POST Methods
 
 ### SQL Injection
-
-Lorem ipsum dolor sit amet
 
 - [sqlmap](https://github.com/sqlmapproject/sqlmap) - Automatic SQL injection and database takeover tool
 - [NoSQLMap](https://github.com/codingo/NoSQLMap) - Automated NoSQL database enumeration and web application exploitation tool.
@@ -130,8 +120,6 @@ Lorem ipsum dolor sit amet
 
 ### XXE Injection
 
-Lorem ipsum dolor sit amet
-
 - [ground-control](https://github.com/jobertabma/ground-control) - A collection of scripts that run on my web server. Mainly for debugging SSRF, blind XSS, and XXE vulnerabilities.
 - [dtd-finder](https://github.com/GoSecure/dtd-finder) - List DTDs and generate XXE payloads using those local DTDs.
 - [docem](https://github.com/whitel1st/docem) - Uility to embed XXE and XSS payloads in docx,odt,pptx,etc (OXML_XEE on steroids)
@@ -140,6 +128,31 @@ Lorem ipsum dolor sit amet
 - [B-XSSRF](https://github.com/SpiderMate/B-XSSRF) - Toolkit to detect and keep track on Blind XSS, XXE & SSRF
 - [XXEinjector](https://github.com/enjoiz/XXEinjector) - Tool for automatic exploitation of XXE vulnerability using direct and different out of band methods.
 - [oxml_xxe](https://github.com/BuffaloWill/oxml_xxe) - A tool for embedding XXE/XML exploits into different filetypes
+- [metahttp](https://github.com/vp777/metahttp) - A bash script that automates the scanning of a target network for HTTP resources through XXE
+
+## Miscellaneous
+
+Lorem ipsum dolor sit amet
+
+### CMS
+
+- [wpscan](https://github.com/wpscanteam/wpscan) - WPScan is a free, for non-commercial use, black box WordPress security scanner
+- [WPSpider](https://github.com/cyc10n3/WPSpider) - A centralized dashboard for running and scheduling WordPress scans powered by wpscan utility.
+
+### JSON Web Token
+
+- [jwt_tool](https://github.com/ticarpi/jwt_tool) - A toolkit for testing, tweaking and cracking JSON Web Tokens
+- [c-jwt-cracker](https://github.com/brendan-rius/c-jwt-cracker) - JWT brute force cracker written in C
+- [jwt-heartbreaker](https://github.com/wallarm/jwt-heartbreaker) - The Burp extension to check JWT (JSON Web Tokens) for using keys from known from public sources
+- [jwtear](https://github.com/KINGSABRI/jwtear) - Modular command-line tool to parse, create and manipulate JWT tokens for hackers
+- [jwt-key-id-injector](https://github.com/dariusztytko/jwt-key-id-injector) - Simple python script to check against hypothetical JWT vulnerability.
+
+### postMessage
+
+- [postMessage-tracker](https://github.com/fransr/postMessage-tracker) - A Chrome Extension to track postMessage usage (url, domain and stack) both by logging using CORS and also visually as an extension-icon
+- [PostMessage_Fuzz_Tool](https://github.com/kiranreddyrebel/PostMessage_Fuzz_Tool) - #BugBounty #BugBounty Tools #WebDeveloper Tool
+
+
 
 
 ## Contribute
