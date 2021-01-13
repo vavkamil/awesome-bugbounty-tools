@@ -6,13 +6,13 @@
 
 - [Recon](#Recon)
     - [Subdomain Enumeration](#Subdomain-Enumeration)
-    - [Ports](#Ports)
+    - [Port Scanning](#Port-Scanning)
     - [Screenshots](#Screenshots)
     - [Technologies](#Technologies)
-    - [Files/directories](#Files/directories)
-    - [Secrets](#Secrets)
-    - [Buckets](#Buckets)
-    - [Git](#Git)
+    - [Content Discovery](#Content-Discovery)
+    - [Links](#Links)
+    - [Parameters](#Parameters)
+    - [Fuzzing](#Fuzzing)
 
 - [Exploitation](#Exploitation)
     - [Command Injection](#Command-Injection)
@@ -34,10 +34,15 @@
     - [XXE Injection](#XXE-Injection)
 
 - [Miscellaneous](#Miscellaneous)
-    - [CMS](#)
+    - [Passwords](#Passwords)
+    - [Secrets](#Secrets)
+    - [Git](#Git)
+    - [Buckets](#Buckets)
+    - [CMS](#CMS)
     - [JSON Web Token](#JSON-Web-Token)
     - [postMessage](#postMessage)
     - [Subdomain Takeover](#Subdomain-Takeover)
+    - [Uncategorized](#Uncategorized)
 
 ---
 
@@ -74,8 +79,9 @@ Lorem ipsum dolor sit amet
 - [subfinder](https://github.com/projectdiscovery/subfinder) - Subfinder is a subdomain discovery tool that discovers valid subdomains for websites.
 - [assetfinder](https://github.com/tomnomnom/assetfinder) - Find domains and subdomains related to a given domain
 - [crtndstry](https://github.com/nahamsec/crtndstry) - Yet another subdomain finder
+- [VHostScan](https://github.com/codingo/VHostScan) - https://github.com/codingo/VHostScan
 
-### Ports
+### Port Scanning
 
 - [masscan](https://github.com/robertdavidgraham/masscan) - TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes.
 - [RustScan](https://github.com/RustScan/RustScan) - The Modern Port Scanner
@@ -104,62 +110,49 @@ Lorem ipsum dolor sit amet
 - [whatweb](https://github.com/urbanadventurer/whatweb) - Next generation web scanner
 - [retire.js](https://github.com/RetireJS/retire.js) - scanner detecting the use of JavaScript libraries with known vulnerabilities
 
-### Files/directories
+### Content Discovery
 
-- []() - 
-- []() - 
-- []() - 
-- []() - 
-- []() - 
+- [gobuster](https://github.com/OJ/gobuster) - Directory/File, DNS and VHost busting tool written in Go
+- [recursebuster](https://github.com/C-Sto/recursebuster) - rapid content discovery tool for recursively querying webservers, handy in pentesting and web application assessments
+- [feroxbuster](https://github.com/epi052/feroxbuster) - A fast, simple, recursive content discovery tool written in Rust.
+- [dirsearch](https://github.com/maurosoria/dirsearch) - Web path scanner
+- [dirsearch](https://github.com/evilsocket/dirsearch) - A Go implementation of dirsearch.
+- [filebuster](https://github.com/henshin/filebuster) - An extremely fast and flexible web fuzzer
+- [dirstalk](https://github.com/stefanoj3/dirstalk) - Modern alternative to dirbuster/dirb
+- [dirbuster-ng](https://github.com/digination/dirbuster-ng) - dirbuster-ng is C CLI implementation of the Java dirbuster tool
+- [gospider](https://github.com/jaeles-project/gospider) - Gospider - Fast web spider written in Go
+- [hakrawler](https://github.com/hakluke/hakrawler) - Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application
 
-### Secrets
+### Links
 
-- [git-secrets](https://github.com/awslabs/git-secrets) - Prevents you from committing secrets and credentials into git repositories
-- [gitleaks](https://github.com/zricethezav/gitleaks) - Scan git repos (or files) for secrets using regex and entropy
-- [truffleHog](https://github.com/dxa4481/truffleHog) - Searches through git repositories for high entropy strings and secrets, digging deep into commit history
-- [gitGraber](https://github.com/hisxo/gitGraber) - gitGraber: monitor GitHub to search and find sensitive data in real time for different online services
-- [talisman](https://github.com/thoughtworks/talisman) - By hooking into the pre-push hook provided by Git, Talisman validates the outgoing changeset for things that look suspicious - such as authorization tokens and private keys.
-- [GitGot](https://github.com/BishopFox/GitGot) - Semi-automated, feedback-driven tool to rapidly search through troves of public data on GitHub for sensitive secrets.
-- [git-all-secrets](https://github.com/anshumanbh/git-all-secrets) - A tool to capture all the git secrets by leveraging multiple open source git searching tools
-- [github-search](https://github.com/gwen001/github-search) - Tools to perform basic search on GitHub.
-- [git-vuln-finder](https://github.com/cve-search/git-vuln-finder) - Finding potential software vulnerabilities from git commit messages
-- [commit-stream](https://github.com/x1sec/commit-stream) - #OSINT tool for finding Github repositories by extracting commit logs in real time from the Github event API
-- [gitrob](https://github.com/michenriksen/gitrob) - Reconnaissance tool for GitHub organizations
-- [repo-supervisor](https://github.com/auth0/repo-supervisor) - Scan your code for security misconfiguration, search for passwords and secrets.
-- [GitMiner](https://github.com/UnkL4b/GitMiner) - Tool for advanced mining for content on Github
-- [shhgit](https://github.com/eth0izzle/shhgit) - Ah shhgit! Find GitHub secrets in real time
-- [detect-secrets](https://github.com/Yelp/detect-secrets) - An enterprise friendly way of detecting and preventing secrets in code.
-- [rusty-hog](https://github.com/newrelic/rusty-hog) - A suite of secret scanners built in Rust for performance. Based on TruffleHog
-- [whispers](https://github.com/Skyscanner/whispers) - Identify hardcoded secrets and dangerous behaviours
-- [yar](https://github.com/nielsing/yar) - Yar is a tool for plunderin' organizations, users and/or repositories.
-- [dufflebag](https://github.com/BishopFox/dufflebag) - Search exposed EBS volumes for secrets
-- [secret-bridge](https://github.com/duo-labs/secret-bridge) - Monitors Github for leaked secrets
+- [LinkFinder](https://github.com/GerbenJavado/LinkFinder) - A python script that finds endpoints in JavaScript files
+- [JS-Scan](https://github.com/zseano/JS-Scan) - a .js scanner, built in php. designed to scrape urls and other info
+- [LinksDumper](https://github.com/arbazkiraak/LinksDumper) - Extract (links/possible endpoints) from responses & filter them via decoding/sorting
+- [GoLinkFinder](https://github.com/0xsha/GoLinkFinder) - A fast and minimal JS endpoint extractor
+- [BurpJSLinkFinder](https://github.com/InitRoot/BurpJSLinkFinder) - Burp Extension for a passive scanning JS files for endpoint links.
+- [urlgrab](https://github.com/IAmStoxe/urlgrab) - A golang utility to spider through a website searching for additional links.
+- [waybackurls](https://github.com/tomnomnom/waybackurls) - Fetch all the URLs that the Wayback Machine knows about for a domain
+- [gau](https://github.com/lc/gau) - Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl.
+- [getJS](https://github.com/003random/getJS) -  A tool to fastly get all javascript sources/files
 
-### Git
+### Parameters
 
-- [GitTools](https://github.com/internetwache/GitTools) - A repository with 3 tools for pwn'ing websites with .git repositories available
-- [gitjacker](https://github.com/liamg/gitjacker) - Leak git repositories from misconfigured websites
-- [git-dumper](https://github.com/arthaud/git-dumper) - A tool to dump a git repository from a website
-- [GitHunter](https://github.com/digininja/GitHunter) - A tool for searching a Git repository for interesting content
-- [dvcs-ripper](https://github.com/kost/dvcs-ripper) - Rip web accessible (distributed) version control systems: SVN/GIT/HG...
+- [parameth](https://github.com/maK-/parameth) - This tool can be used to brute discover GET and POST parameters
+- [param-miner](https://github.com/PortSwigger/param-miner) - This extension identifies hidden, unlinked parameters. It's particularly useful for finding web cache poisoning vulnerabilities.
+- [ParamPamPam](https://github.com/Bo0oM/ParamPamPam) - This tool for brute discover GET and POST parameters.
+- [Arjun](https://github.com/s0md3v/Arjun) - HTTP parameter discovery suite.
+- [ParamSpider](https://github.com/devanshbatham/ParamSpider) - Mining parameters from dark corners of Web Archives
 
-### Buckets
+### Fuzzing
 
-- [S3Scanner](https://github.com/sa7mon/S3Scanner) - Scan for open AWS S3 buckets and dump the contents
-- [AWSBucketDump](https://github.com/jordanpotti/AWSBucketDump) - Security Tool to Look For Interesting Files in S3 Buckets
-- [CloudScraper](https://github.com/jordanpotti/CloudScraper) - CloudScraper: Tool to enumerate targets in search of cloud resources. S3 Buckets, Azure Blobs, Digital Ocean Storage Space.
-- [s3viewer](https://github.com/SharonBrizinov/s3viewer) - Publicly Open Amazon AWS S3 Bucket Viewer
-- [festin](https://github.com/cr0hn/festin) - FestIn - S3 Bucket Weakness Discovery
-- [s3reverse](https://github.com/hahwul/s3reverse) - The format of various s3 buckets is convert in one format. for bugbounty and security testing.
-- [mass-s3-bucket-tester](https://github.com/random-robbie/mass-s3-bucket-tester) - This tests a list of s3 buckets to see if they have dir listings enabled or if they are uploadable
-- [S3BucketList](https://github.com/AlecBlance/S3BucketList) - Firefox plugin that lists Amazon S3 Buckets found in requests
-- [dirlstr](https://github.com/cybercdh/dirlstr) - Finds Directory Listings or open S3 buckets from a list of URLs
-- [Burp-AnonymousCloud](https://github.com/codewatchorg/Burp-AnonymousCloud) - Burp extension that performs a passive scan to identify cloud buckets and then test them for publicly accessible vulnerabilities
-- [kicks3](https://github.com/abuvanth/kicks3) - S3 bucket finder from html,js and bucket misconfiguration testing tool
-- [2tearsinabucket](https://github.com/Revenant40/2tearsinabucket) - Enumerate s3 buckets for a specific target.
-- [s3_objects_check](https://github.com/nccgroup/s3_objects_check) - Whitebox evaluation of effective S3 object permissions, to identify publicly accessible files.
-- [s3tk](https://github.com/ankane/s3tk) - A security toolkit for Amazon S3
-- [CloudBrute](https://github.com/0xsha/CloudBrute) - Awesome cloud enumerator
+- [wfuzz](https://github.com/xmendez/wfuzz) - Web application fuzzer
+- [ffuf](https://github.com/ffuf/ffuf) -  Fast web fuzzer written in Go
+- [fuzzdb](https://github.com/fuzzdb-project/fuzzdb) - Dictionary of attack patterns and primitives for black-box application fault injection and resource discovery.
+- [IntruderPayloads](https://github.com/1N3/IntruderPayloads) - A collection of Burpsuite Intruder payloads, BurpBounty payloads, fuzz lists, malicious file uploads and web pentesting methodologies and checklists.
+- [fuzz.txt](https://github.com/Bo0oM/fuzz.txt) - Potentially dangerous files
+- [fuzzilli](https://github.com/googleprojectzero/fuzzilli) - A JavaScript Engine Fuzzer
+- [fuzzapi](https://github.com/Fuzzapi/fuzzapi) - Fuzzapi is a tool used for REST API pentesting and uses API_Fuzzer gem
+- [qsfuzz](https://github.com/ameenmaali/qsfuzz) - qsfuzz (Query String Fuzz) allows you to build your own rules to fuzz query strings and easily identify vulnerabilities.
 
 ---
 
@@ -231,6 +224,8 @@ Lorem ipsum dolor sit amet
 - [Oralyzer](https://github.com/r0075h3ll/Oralyzer) - Open Redirection Analyzer
 - [Injectus](https://github.com/BountyStrike/Injectus) - CRLF and open redirect fuzzer
 - [dom-red](https://github.com/Naategh/dom-red) - Small script to check a list of domains against open redirect vulnerability
+- [gen.py](https://gist.github.com/zPrototype/b211ae91e2b082420c350c28b6674170) - Open url redirect payload generator
+- [OpenRedireX](https://github.com/devanshbatham/OpenRedireX) - A Fuzzer for OpenRedirect issues
 
 ### Race Condition
 
@@ -262,6 +257,13 @@ Lorem ipsum dolor sit amet
 - [grafana-ssrf](https://github.com/RandomRobbieBF/grafana-ssrf) - Authenticated SSRF in Grafana
 - [sentrySSRF](https://github.com/xawdxawdx/sentrySSRF) - Tool to searching sentry config on page or in javascript files and check blind SSRF
 - [lorsrf](https://github.com/knassar702/lorsrf) - Bruteforcing on Hidden parameters to find SSRF vulnerability using GET and POST Methods
+- [singularity](https://github.com/nccgroup/singularity) - A DNS rebinding attack framework.
+- [whonow](https://github.com/brannondorsey/whonow) - A "malicious" DNS server for executing DNS Rebinding attacks on the fly (public instance running on rebind.network:53)
+- [dns-rebind-toolkit](https://github.com/brannondorsey/dns-rebind-toolkit) - A front-end JavaScript toolkit for creating DNS rebinding attacks.
+- [dref](https://github.com/FSecureLABS/dref) - DNS Rebinding Exploitation Framework
+- [rbndr](https://github.com/taviso/rbndr) - Simple DNS Rebinding Service
+- [httprebind](https://github.com/daeken/httprebind) - Automatic tool for DNS rebinding-based SSRF attacks
+- [dnsFookup](DNS rebinding toolkit) - https://github.com/makuga01/dnsFookup
 
 ### SQL Injection
 
@@ -319,6 +321,8 @@ Lorem ipsum dolor sit amet
 - [vaya-ciego-nen](https://github.com/hipotermia/vaya-ciego-nen) - Detect, manage and exploit Blind Cross-site scripting (XSS) vulnerabilities.
 - [dom-based-xss-finder](https://github.com/AsaiKen/dom-based-xss-finder) - Chrome extension that finds DOM based XSS vulnerabilities
 - [XSSTerminal](https://github.com/machinexa2/XSSTerminal) - Develop your own XSS Payload using interactive typing
+- [xss2png](https://github.com/vavkamil/xss2png) - PNG IDAT chunks XSS payload generator
+- [XSSwagger](https://github.com/vavkamil/XSSwagger) - A simple Swagger-ui scanner that can detect old versions vulnerable to various XSS attacks
 
 ### XXE Injection
 
@@ -338,6 +342,66 @@ Lorem ipsum dolor sit amet
 
 Lorem ipsum dolor sit amet
 
+### Passwords
+
+- [thc-hydra](https://github.com/vanhauser-thc/thc-hydra) - Hydra is a parallelized login cracker which supports numerous protocols to attack.
+- [DefaultCreds-cheat-sheet](https://github.com/ihebski/DefaultCreds-cheat-sheet) - One place for all the default credentials to assist the Blue/Red teamers activities on finding devices with default password
+- [changeme](https://github.com/ztgrace/changeme) - A default credential scanner.
+- [BruteX](https://github.com/1N3/BruteX) - Automatically brute force all services running on a target.
+- [patator](https://github.com/lanjelot/patator) - Patator is a multi-purpose brute-forcer, with a modular design and a flexible usage.
+
+### Secrets
+
+- [git-secrets](https://github.com/awslabs/git-secrets) - Prevents you from committing secrets and credentials into git repositories
+- [gitleaks](https://github.com/zricethezav/gitleaks) - Scan git repos (or files) for secrets using regex and entropy
+- [truffleHog](https://github.com/dxa4481/truffleHog) - Searches through git repositories for high entropy strings and secrets, digging deep into commit history
+- [gitGraber](https://github.com/hisxo/gitGraber) - gitGraber: monitor GitHub to search and find sensitive data in real time for different online services
+- [talisman](https://github.com/thoughtworks/talisman) - By hooking into the pre-push hook provided by Git, Talisman validates the outgoing changeset for things that look suspicious - such as authorization tokens and private keys.
+- [GitGot](https://github.com/BishopFox/GitGot) - Semi-automated, feedback-driven tool to rapidly search through troves of public data on GitHub for sensitive secrets.
+- [git-all-secrets](https://github.com/anshumanbh/git-all-secrets) - A tool to capture all the git secrets by leveraging multiple open source git searching tools
+- [github-search](https://github.com/gwen001/github-search) - Tools to perform basic search on GitHub.
+- [git-vuln-finder](https://github.com/cve-search/git-vuln-finder) - Finding potential software vulnerabilities from git commit messages
+- [commit-stream](https://github.com/x1sec/commit-stream) - #OSINT tool for finding Github repositories by extracting commit logs in real time from the Github event API
+- [gitrob](https://github.com/michenriksen/gitrob) - Reconnaissance tool for GitHub organizations
+- [repo-supervisor](https://github.com/auth0/repo-supervisor) - Scan your code for security misconfiguration, search for passwords and secrets.
+- [GitMiner](https://github.com/UnkL4b/GitMiner) - Tool for advanced mining for content on Github
+- [shhgit](https://github.com/eth0izzle/shhgit) - Ah shhgit! Find GitHub secrets in real time
+- [detect-secrets](https://github.com/Yelp/detect-secrets) - An enterprise friendly way of detecting and preventing secrets in code.
+- [rusty-hog](https://github.com/newrelic/rusty-hog) - A suite of secret scanners built in Rust for performance. Based on TruffleHog
+- [whispers](https://github.com/Skyscanner/whispers) - Identify hardcoded secrets and dangerous behaviours
+- [yar](https://github.com/nielsing/yar) - Yar is a tool for plunderin' organizations, users and/or repositories.
+- [dufflebag](https://github.com/BishopFox/dufflebag) - Search exposed EBS volumes for secrets
+- [secret-bridge](https://github.com/duo-labs/secret-bridge) - Monitors Github for leaked secrets
+- [earlybird](https://github.com/americanexpress/earlybird) - EarlyBird is a sensitive data detection tool capable of scanning source code repositories for clear text password violations, PII, outdated cryptography methods, key files and more.
+
+### Git
+
+- [GitTools](https://github.com/internetwache/GitTools) - A repository with 3 tools for pwn'ing websites with .git repositories available
+- [gitjacker](https://github.com/liamg/gitjacker) - Leak git repositories from misconfigured websites
+- [git-dumper](https://github.com/arthaud/git-dumper) - A tool to dump a git repository from a website
+- [GitHunter](https://github.com/digininja/GitHunter) - A tool for searching a Git repository for interesting content
+- [dvcs-ripper](https://github.com/kost/dvcs-ripper) - Rip web accessible (distributed) version control systems: SVN/GIT/HG...
+
+### Buckets
+
+- [S3Scanner](https://github.com/sa7mon/S3Scanner) - Scan for open AWS S3 buckets and dump the contents
+- [AWSBucketDump](https://github.com/jordanpotti/AWSBucketDump) - Security Tool to Look For Interesting Files in S3 Buckets
+- [CloudScraper](https://github.com/jordanpotti/CloudScraper) - CloudScraper: Tool to enumerate targets in search of cloud resources. S3 Buckets, Azure Blobs, Digital Ocean Storage Space.
+- [s3viewer](https://github.com/SharonBrizinov/s3viewer) - Publicly Open Amazon AWS S3 Bucket Viewer
+- [festin](https://github.com/cr0hn/festin) - FestIn - S3 Bucket Weakness Discovery
+- [s3reverse](https://github.com/hahwul/s3reverse) - The format of various s3 buckets is convert in one format. for bugbounty and security testing.
+- [mass-s3-bucket-tester](https://github.com/random-robbie/mass-s3-bucket-tester) - This tests a list of s3 buckets to see if they have dir listings enabled or if they are uploadable
+- [S3BucketList](https://github.com/AlecBlance/S3BucketList) - Firefox plugin that lists Amazon S3 Buckets found in requests
+- [dirlstr](https://github.com/cybercdh/dirlstr) - Finds Directory Listings or open S3 buckets from a list of URLs
+- [Burp-AnonymousCloud](https://github.com/codewatchorg/Burp-AnonymousCloud) - Burp extension that performs a passive scan to identify cloud buckets and then test them for publicly accessible vulnerabilities
+- [kicks3](https://github.com/abuvanth/kicks3) - S3 bucket finder from html,js and bucket misconfiguration testing tool
+- [2tearsinabucket](https://github.com/Revenant40/2tearsinabucket) - Enumerate s3 buckets for a specific target.
+- [s3_objects_check](https://github.com/nccgroup/s3_objects_check) - Whitebox evaluation of effective S3 object permissions, to identify publicly accessible files.
+- [s3tk](https://github.com/ankane/s3tk) - A security toolkit for Amazon S3
+- [CloudBrute](https://github.com/0xsha/CloudBrute) - Awesome cloud enumerator
+- [s3cario](https://github.com/0xspade/s3cario) - This tool will get the CNAME first if it's a valid Amazon s3 bucket and if it's not, it will try to check if the domain is a bucket name.
+- [S3Cruze](https://github.com/JR0ch17/S3Cruze) - All-in-one AWS S3 bucket tool for pentesters.
+
 ### CMS
 
 - [wpscan](https://github.com/wpscanteam/wpscan) - WPScan is a free, for non-commercial use, black box WordPress security scanner
@@ -345,6 +409,7 @@ Lorem ipsum dolor sit amet
 - [wprecon](https://github.com/blackcrw/wprecon) - Wordpress Recon
 - [CMSmap](https://github.com/Dionach/CMSmap) -  CMSmap is a python open source CMS scanner that automates the process of detecting security flaws of the most popular CMSs.
 - [joomscan](https://github.com/OWASP/joomscan) - OWASP Joomla Vulnerability Scanner Project
+- [pyfiscan](https://github.com/fgeek/pyfiscan) - Free web-application vulnerability and version scanner
 
 ### JSON Web Token
 
@@ -373,13 +438,38 @@ Lorem ipsum dolor sit amet
 - [tko-subs](https://github.com/anshumanbh/tko-subs) - A tool that can help detect and takeover subdomains with dead DNS records
 - [HostileSubBruteforcer](https://github.com/nahamsec/HostileSubBruteforcer) - This app will bruteforce for exisiting subdomains and provide information if the 3rd party host has been properly setup.
 - [second-order](https://github.com/mhmdiaa/second-order) - Second-order subdomain takeover scanner
+- [takeover](https://github.com/mzfr/takeover) - A tool for testing subdomain takeover possibilities at a mass scale.
 
-### CVEs
+### Vulnerability Scanners
 
+- [nuclei](https://github.com/projectdiscovery/nuclei) - Nuclei is a fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use.
+- [Sn1per](https://github.com/1N3/Sn1per) - Automated pentest framework for offensive security experts
+- [metasploit-framework](https://github.com/rapid7/metasploit-framework) - Metasploit Framework
+- [nikto](https://github.com/sullo/nikto) - Nikto web server scanner 
+- [arachni](https://github.com/Arachni/arachni) - Web Application Security Scanner Framework
+- [jaeles](https://github.com/jaeles-project/jaeles) - The Swiss Army knife for automated Web Application Testing
 - [retire.js](https://github.com/RetireJS/retire.js) - scanner detecting the use of JavaScript libraries with known vulnerabilities
+- [Osmedeus](https://github.com/j3ssie/Osmedeus) - Fully automated offensive security framework for reconnaissance and vulnerability scanning
 - [getsploit](https://github.com/vulnersCom/getsploit) - Command line utility for searching and downloading exploits
+- [flan](https://github.com/cloudflare/flan) - A pretty sweet vulnerability scanner
 - [Findsploit](https://github.com/1N3/Findsploit) - Find exploits in local and online databases instantly
-- [struts-pwn](https://github.com/mazen160/struts-pwn) - An exploit for Apache Struts CVE-2017-5638
+- [BlackWidow](https://github.com/1N3/BlackWidow) - A Python based web application scanner to gather OSINT and fuzz for OWASP vulnerabilities on a target website. 
+- [backslash-powered-scanner](https://github.com/PortSwigger/backslash-powered-scanner) - Finds unknown classes of injection vulnerabilities
+- [Eagle](https://github.com/BitTheByte/Eagle) - Multithreaded Plugin based vulnerability scanner for mass detection of web-based applications vulnerabilities
+
+### Uncategorized
+
+- [JSONBee](https://github.com/zigoo0/JSONBee) - A ready to use JSONP endpoints/payloads to help bypass content security policy (CSP) of different websites.
+- [CyberChef](https://github.com/gchq/CyberChef) - The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis
+- []() - 
+- [bountyplz](https://github.com/fransr/bountyplz) - Automated security reporting from markdown templates (HackerOne and Bugcrowd are currently the platforms supported)
+- [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) - A list of useful payloads and bypass for Web Application Security and Pentest/CTF 
+- [bounty-targets-data](https://github.com/arkadiyt/bounty-targets-data) - This repo contains hourly-updated data dumps of bug bounty platform scopes (like Hackerone/Bugcrowd/Intigriti/etc) that are eligible for reports
+- [android-security-awesome](https://github.com/ashishb/android-security-awesome) - A collection of android security related resources
+- [awesome-mobile-security](https://github.com/vaib25vicky/awesome-mobile-security) - An effort to build a single place for all useful android and iOS security related stuff.
+- [awesome-vulnerable-apps](https://github.com/vavkamil/awesome-vulnerable-apps) - Awesome Vulnerable Applications
+- [XFFenum](https://github.com/vavkamil/XFFenum) - X-Forwarded-For [403 forbidden] enumeration
+- [httpx](https://github.com/projectdiscovery/httpx) - httpx is a fast and multi-purpose HTTP toolkit allow to run multiple probers using retryablehttp library, it is designed to maintain the result reliability with increased threads.
 
 ---
 
