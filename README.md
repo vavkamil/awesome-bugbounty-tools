@@ -79,7 +79,8 @@ Lorem ipsum dolor sit amet
 - [subfinder](https://github.com/projectdiscovery/subfinder) - Subfinder is a subdomain discovery tool that discovers valid subdomains for websites.
 - [assetfinder](https://github.com/tomnomnom/assetfinder) - Find domains and subdomains related to a given domain
 - [crtndstry](https://github.com/nahamsec/crtndstry) - Yet another subdomain finder
-- [VHostScan](https://github.com/codingo/VHostScan) - https://github.com/codingo/VHostScan
+- [VHostScan](https://github.com/codingo/VHostScan) - A virtual host scanner that performs reverse lookups
+- [scilla](https://github.com/edoardottt/scilla) - Information Gathering tool - DNS / Subdomains / Ports / Directories enumeration 
 
 ### Port Scanning
 
@@ -456,6 +457,7 @@ Lorem ipsum dolor sit amet
 - [BlackWidow](https://github.com/1N3/BlackWidow) - A Python based web application scanner to gather OSINT and fuzz for OWASP vulnerabilities on a target website. 
 - [backslash-powered-scanner](https://github.com/PortSwigger/backslash-powered-scanner) - Finds unknown classes of injection vulnerabilities
 - [Eagle](https://github.com/BitTheByte/Eagle) - Multithreaded Plugin based vulnerability scanner for mass detection of web-based applications vulnerabilities
+- [cariddi](https://github.com/edoardottt/cariddi) - Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, tokens and more... 
 
 ### Uncategorized
 
