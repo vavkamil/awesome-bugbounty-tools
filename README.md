@@ -374,6 +374,7 @@ Lorem ipsum dolor sit amet
 - [dufflebag](https://github.com/BishopFox/dufflebag) - Search exposed EBS volumes for secrets
 - [secret-bridge](https://github.com/duo-labs/secret-bridge) - Monitors Github for leaked secrets
 - [earlybird](https://github.com/americanexpress/earlybird) - EarlyBird is a sensitive data detection tool capable of scanning source code repositories for clear text password violations, PII, outdated cryptography methods, key files and more.
+- [Trufflehog-Chrome-Extension](https://github.com/trufflesecurity/Trufflehog-Chrome-Extension) - Trufflehog-Chrome-Extension
 
 ### Git
 
