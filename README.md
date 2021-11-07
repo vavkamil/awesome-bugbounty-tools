@@ -110,6 +110,7 @@ Lorem ipsum dolor sit amet
 - [python-builtwith](https://github.com/claymation/python-builtwith) - BuiltWith API client
 - [whatweb](https://github.com/urbanadventurer/whatweb) - Next generation web scanner
 - [retire.js](https://github.com/RetireJS/retire.js) - scanner detecting the use of JavaScript libraries with known vulnerabilities
+- [httpx](https://github.com/projectdiscovery/httpx) - httpx is a fast and multi-purpose HTTP toolkit allows to run multiple probers using retryablehttp library, it is designed to maintain the result reliability with increased threads.
 
 ### Content Discovery
 
@@ -225,7 +226,6 @@ Lorem ipsum dolor sit amet
 - [Oralyzer](https://github.com/r0075h3ll/Oralyzer) - Open Redirection Analyzer
 - [Injectus](https://github.com/BountyStrike/Injectus) - CRLF and open redirect fuzzer
 - [dom-red](https://github.com/Naategh/dom-red) - Small script to check a list of domains against open redirect vulnerability
-- [gen.py](https://gist.github.com/zPrototype/b211ae91e2b082420c350c28b6674170) - Open url redirect payload generator
 - [OpenRedireX](https://github.com/devanshbatham/OpenRedireX) - A Fuzzer for OpenRedirect issues
 
 ### Race Condition
