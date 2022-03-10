@@ -21,7 +21,7 @@
     - [CSRF Injection](#CSRF-Injection)
     - [Directory Traversal](#Directory-Traversal)
     - [File Inclusion](#File-Inclusion)
-    - [GraphQL Injection](GraphQL-Injection)
+    - [GraphQL Injection](#GraphQL-Injection)
     - [Header Injection](#Header-Injection)
     - [Insecure Deserialization](#Insecure-Deserialization)
     - [Insecure Direct Object References](#Insecure-Direct-Object-References)
