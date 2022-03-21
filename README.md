@@ -155,6 +155,7 @@ Lorem ipsum dolor sit amet
 - [fuzzilli](https://github.com/googleprojectzero/fuzzilli) - A JavaScript Engine Fuzzer
 - [fuzzapi](https://github.com/Fuzzapi/fuzzapi) - Fuzzapi is a tool used for REST API pentesting and uses API_Fuzzer gem
 - [qsfuzz](https://github.com/ameenmaali/qsfuzz) - qsfuzz (Query String Fuzz) allows you to build your own rules to fuzz query strings and easily identify vulnerabilities.
+- [vaf](https://github.com/d4rckh/vaf) - very advanced (web) fuzzer written in Nim.
 
 ---
 
