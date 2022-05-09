@@ -81,6 +81,7 @@ Lorem ipsum dolor sit amet
 - [crtndstry](https://github.com/nahamsec/crtndstry) - Yet another subdomain finder
 - [VHostScan](https://github.com/codingo/VHostScan) - A virtual host scanner that performs reverse lookups
 - [scilla](https://github.com/edoardottt/scilla) - Information Gathering tool - DNS / Subdomains / Ports / Directories enumeration 
+- [sub3suite](https://github.com/3nock/sub3suite) - A research-grade suite of tools for subdomain enumeration, intelligence gathering and attack surface mapping.
 
 ### Port Scanning
 
