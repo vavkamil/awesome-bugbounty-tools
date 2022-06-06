@@ -177,6 +177,7 @@ Lorem ipsum dolor sit amet
 
 ### CRLF Injection
 
+- [CRLFsuite](https://github.com/Nefcore/CRLFsuite) - A fast tool specially designed to scan CRLF injection
 - [crlfuzz](https://github.com/dwisiswant0/crlfuzz) - A fast tool to scan CRLF vulnerability written in Go
 - [CRLF-Injection-Scanner](https://github.com/MichaelStott/CRLF-Injection-Scanner) - Command line tool for testing CRLF injection on a list of domains.
 - [Injectus](https://github.com/BountyStrike/Injectus) - CRLF and open redirect fuzzer
