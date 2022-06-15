@@ -327,6 +327,7 @@ Lorem ipsum dolor sit amet
 - [XSSTerminal](https://github.com/machinexa2/XSSTerminal) - Develop your own XSS Payload using interactive typing
 - [xss2png](https://github.com/vavkamil/xss2png) - PNG IDAT chunks XSS payload generator
 - [XSSwagger](https://github.com/vavkamil/XSSwagger) - A simple Swagger-ui scanner that can detect old versions vulnerable to various XSS attacks
+- [Cyclops](https://github.com/v8blink/Chromium-based-XSS-Taint-Tracking) - Cyclops is a web browser with XSS detection feature, it is chromium-based xss detection that used to find the flows from a source to a sink
 
 ### XXE Injection
 
