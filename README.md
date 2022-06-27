@@ -137,6 +137,7 @@ Lorem ipsum dolor sit amet
 - [waybackurls](https://github.com/tomnomnom/waybackurls) - Fetch all the URLs that the Wayback Machine knows about for a domain
 - [gau](https://github.com/lc/gau) - Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl.
 - [getJS](https://github.com/003random/getJS) -  A tool to fastly get all javascript sources/files
+- [linx](https://github.com/riza/linx) - Reveals invisible links within JavaScript files
 
 ### Parameters
 
