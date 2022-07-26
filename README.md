@@ -463,6 +463,7 @@ Lorem ipsum dolor sit amet
 - [backslash-powered-scanner](https://github.com/PortSwigger/backslash-powered-scanner) - Finds unknown classes of injection vulnerabilities
 - [Eagle](https://github.com/BitTheByte/Eagle) - Multithreaded Plugin based vulnerability scanner for mass detection of web-based applications vulnerabilities
 - [cariddi](https://github.com/edoardottt/cariddi) - Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, tokens and more... 
+- [SniffCon](https://sniffcon.com) - SniffCon is a platform built by [h33tlit](https://github.com/h33tlit) where you will find heavy lifting tools such as subdomain scanner, link scraper, secret finder, whois monitoring and many more that provide you with organized recon data, which is crucial during bug bounty and pentest.
 
 ### Uncategorized
 
