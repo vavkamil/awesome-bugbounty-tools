@@ -268,7 +268,7 @@ Lorem ipsum dolor sit amet
 - [dref](https://github.com/FSecureLABS/dref) - DNS Rebinding Exploitation Framework
 - [rbndr](https://github.com/taviso/rbndr) - Simple DNS Rebinding Service
 - [httprebind](https://github.com/daeken/httprebind) - Automatic tool for DNS rebinding-based SSRF attacks
-- [dnsFookup](DNS rebinding toolkit) - https://github.com/makuga01/dnsFookup
+- [dnsFookup](https://github.com/makuga01/dnsFookup) - DNS rebinding toolkit
 
 ### SQL Injection
 
@@ -463,6 +463,7 @@ Lorem ipsum dolor sit amet
 - [backslash-powered-scanner](https://github.com/PortSwigger/backslash-powered-scanner) - Finds unknown classes of injection vulnerabilities
 - [Eagle](https://github.com/BitTheByte/Eagle) - Multithreaded Plugin based vulnerability scanner for mass detection of web-based applications vulnerabilities
 - [cariddi](https://github.com/edoardottt/cariddi) - Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, tokens and more... 
+- [OWASP ZAP](https://github.com/zaproxy/zaproxy) -  World’s most popular free web security tools and is actively maintained by a dedicated international team of volunteers
 
 ### Uncategorized
 
