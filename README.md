@@ -268,7 +268,7 @@ Lorem ipsum dolor sit amet
 - [dref](https://github.com/FSecureLABS/dref) - DNS Rebinding Exploitation Framework
 - [rbndr](https://github.com/taviso/rbndr) - Simple DNS Rebinding Service
 - [httprebind](https://github.com/daeken/httprebind) - Automatic tool for DNS rebinding-based SSRF attacks
-- [dnsFookup](DNS rebinding toolkit) - https://github.com/makuga01/dnsFookup
+- [dnsFookup](https://github.com/makuga01/dnsFookup) - DNS rebinding toolkit
 
 ### SQL Injection
 
