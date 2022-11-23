@@ -80,7 +80,7 @@ Lorem ipsum dolor sit amet
 - [assetfinder](https://github.com/tomnomnom/assetfinder) - Find domains and subdomains related to a given domain
 - [crtndstry](https://github.com/nahamsec/crtndstry) - Yet another subdomain finder
 - [VHostScan](https://github.com/codingo/VHostScan) - A virtual host scanner that performs reverse lookups
-- [scilla](https://github.com/edoardottt/scilla) - Information Gathering tool - DNS / Subdomains / Ports / Directories enumeration 
+- [scilla](https://github.com/edoardottt/scilla) - Information Gathering tool - DNS / Subdomains / Ports / Directories enumeration
 - [sub3suite](https://github.com/3nock/sub3suite) - A research-grade suite of tools for subdomain enumeration, intelligence gathering and attack surface mapping.
 
 ### Port Scanning
@@ -126,6 +126,7 @@ Lorem ipsum dolor sit amet
 - [dirbuster-ng](https://github.com/digination/dirbuster-ng) - dirbuster-ng is C CLI implementation of the Java dirbuster tool
 - [gospider](https://github.com/jaeles-project/gospider) - Gospider - Fast web spider written in Go
 - [hakrawler](https://github.com/hakluke/hakrawler) - Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application
+- [crawley](https://github.com/s0rg/crawley) - fast, feature-rich unix-way web scraper/crawler written in Golang.
 
 ### Links
 
@@ -320,7 +321,7 @@ Lorem ipsum dolor sit amet
 - [XSSCon](https://github.com/menkrep1337/XSSCon) - XSSCon: Simple XSS Scanner tool
 - [BitBlinder](https://github.com/BitTheByte/BitBlinder) - BurpSuite extension to inject custom cross-site scripting payloads on every form/request submitted to detect blind XSS vulnerabilities
 - [XSSOauthPersistence](https://github.com/dxa4481/XSSOauthPersistence) - Maintaining account persistence via XSS and Oauth
-- [shadow-workers](https://github.com/shadow-workers/shadow-workers) - Shadow Workers is a free and open source C2 and proxy designed for penetration testers to help in the exploitation of XSS and malicious Service Workers (SW) 
+- [shadow-workers](https://github.com/shadow-workers/shadow-workers) - Shadow Workers is a free and open source C2 and proxy designed for penetration testers to help in the exploitation of XSS and malicious Service Workers (SW)
 - [rexsser](https://github.com/profmoriarity/rexsser) - This is a burp plugin that extracts keywords from response using regexes and test for reflected XSS on the target scope.
 - [xss-flare](https://github.com/EgeBalci/xss-flare) - XSS hunter on cloudflare serverless workers.
 - [Xss-Sql-Fuzz](https://github.com/jiangsir404/Xss-Sql-Fuzz) - burpsuite 插件对GP所有参数(过滤特殊参数)一键自动添加xss sql payload 进行fuzz
@@ -452,7 +453,7 @@ Lorem ipsum dolor sit amet
 - [nuclei](https://github.com/projectdiscovery/nuclei) - Nuclei is a fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use.
 - [Sn1per](https://github.com/1N3/Sn1per) - Automated pentest framework for offensive security experts
 - [metasploit-framework](https://github.com/rapid7/metasploit-framework) - Metasploit Framework
-- [nikto](https://github.com/sullo/nikto) - Nikto web server scanner 
+- [nikto](https://github.com/sullo/nikto) - Nikto web server scanner
 - [arachni](https://github.com/Arachni/arachni) - Web Application Security Scanner Framework
 - [jaeles](https://github.com/jaeles-project/jaeles) - The Swiss Army knife for automated Web Application Testing
 - [retire.js](https://github.com/RetireJS/retire.js) - scanner detecting the use of JavaScript libraries with known vulnerabilities
@@ -460,19 +461,19 @@ Lorem ipsum dolor sit amet
 - [getsploit](https://github.com/vulnersCom/getsploit) - Command line utility for searching and downloading exploits
 - [flan](https://github.com/cloudflare/flan) - A pretty sweet vulnerability scanner
 - [Findsploit](https://github.com/1N3/Findsploit) - Find exploits in local and online databases instantly
-- [BlackWidow](https://github.com/1N3/BlackWidow) - A Python based web application scanner to gather OSINT and fuzz for OWASP vulnerabilities on a target website. 
+- [BlackWidow](https://github.com/1N3/BlackWidow) - A Python based web application scanner to gather OSINT and fuzz for OWASP vulnerabilities on a target website.
 - [backslash-powered-scanner](https://github.com/PortSwigger/backslash-powered-scanner) - Finds unknown classes of injection vulnerabilities
 - [Eagle](https://github.com/BitTheByte/Eagle) - Multithreaded Plugin based vulnerability scanner for mass detection of web-based applications vulnerabilities
-- [cariddi](https://github.com/edoardottt/cariddi) - Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, tokens and more... 
+- [cariddi](https://github.com/edoardottt/cariddi) - Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, tokens and more...
 - [OWASP ZAP](https://github.com/zaproxy/zaproxy) -  World’s most popular free web security tools and is actively maintained by a dedicated international team of volunteers
 
 ### Uncategorized
 
 - [JSONBee](https://github.com/zigoo0/JSONBee) - A ready to use JSONP endpoints/payloads to help bypass content security policy (CSP) of different websites.
 - [CyberChef](https://github.com/gchq/CyberChef) - The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis
-- []() - 
+- []() -
 - [bountyplz](https://github.com/fransr/bountyplz) - Automated security reporting from markdown templates (HackerOne and Bugcrowd are currently the platforms supported)
-- [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) - A list of useful payloads and bypass for Web Application Security and Pentest/CTF 
+- [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) - A list of useful payloads and bypass for Web Application Security and Pentest/CTF
 - [bounty-targets-data](https://github.com/arkadiyt/bounty-targets-data) - This repo contains hourly-updated data dumps of bug bounty platform scopes (like Hackerone/Bugcrowd/Intigriti/etc) that are eligible for reports
 - [android-security-awesome](https://github.com/ashishb/android-security-awesome) - A collection of android security related resources
 - [awesome-mobile-security](https://github.com/vaib25vicky/awesome-mobile-security) - An effort to build a single place for all useful android and iOS security related stuff.
