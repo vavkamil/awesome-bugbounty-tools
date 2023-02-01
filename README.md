@@ -210,6 +210,7 @@ Lorem ipsum dolor sit amet
 - [inql](https://github.com/doyensec/inql) - InQL - A Burp Extension for GraphQL Security Testing
 - [GraphQLmap](https://github.com/swisskyrepo/GraphQLmap) - GraphQLmap is a scripting engine to interact with a graphql endpoint for pentesting purposes.
 - [shapeshifter](https://github.com/szski/shapeshifter) - GraphQL security testing tool
+- [graphicator](https://github.com/cybervelia/graphicator) - GraphQL extractor
 - [graphql_beautifier](https://github.com/zidekmat/graphql_beautifier) - Burp Suite extension to help make Graphql request more readable
 - [clairvoyance](https://github.com/nikitastupin/clairvoyance) - Obtain GraphQL API schema despite disabled introspection!
 
