@@ -66,6 +66,8 @@ Lorem ipsum dolor sit amet
 - [censys-enumeration](https://github.com/0xbharath/censys-enumeration) - A script to extract subdomains/emails for a given domain using SSL/TLS certificate dataset on Censys
 - [tugarecon](https://github.com/LordNeoStark/tugarecon) - Fast subdomains enumeration tool for penetration testers.
 - [as3nt](https://github.com/cinerieus/as3nt) - Another Subdomain ENumeration Tool
+- [SubHound](https://github.com/sl4x0/SubHound) - Stay on the beat with SubHound - receive notifications for new subdomains on Telegram and Discord! 🐶🎵
+- [subfree](https://github.com/sl4x0/subfree) - Your subdomains are free for the taking - no API key, no mistaking! 🕺
 - [Subra](https://github.com/si9int/Subra) - A Web-UI for subdomain enumeration (subfinder)
 - [Substr3am](https://github.com/nexxai/Substr3am) - Passive reconnaissance/enumeration of interesting targets by watching for SSL certificates being issued
 - [domain](https://github.com/jhaddix/domain/) - enumall.py Setup script for Regon-ng
