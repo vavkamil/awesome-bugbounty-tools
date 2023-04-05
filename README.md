@@ -82,6 +82,7 @@ Lorem ipsum dolor sit amet
 - [VHostScan](https://github.com/codingo/VHostScan) - A virtual host scanner that performs reverse lookups
 - [scilla](https://github.com/edoardottt/scilla) - Information Gathering tool - DNS / Subdomains / Ports / Directories enumeration
 - [sub3suite](https://github.com/3nock/sub3suite) - A research-grade suite of tools for subdomain enumeration, intelligence gathering and attack surface mapping.
+- [cero](https://github.com/glebarez/cero) - Scrape domain names from SSL certificates of arbitrary hosts 
 
 ### Port Scanning
 
@@ -483,6 +484,7 @@ Lorem ipsum dolor sit amet
 - [awesome-vulnerable-apps](https://github.com/vavkamil/awesome-vulnerable-apps) - Awesome Vulnerable Applications
 - [XFFenum](https://github.com/vavkamil/XFFenum) - X-Forwarded-For [403 forbidden] enumeration
 - [httpx](https://github.com/projectdiscovery/httpx) - httpx is a fast and multi-purpose HTTP toolkit allow to run multiple probers using retryablehttp library, it is designed to maintain the result reliability with increased threads.
+- [csprecon](https://github.com/edoardottt/csprecon) - Discover new target domains using Content Security Policy 
 
 ---
 
