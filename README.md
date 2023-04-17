@@ -383,6 +383,7 @@ Lorem ipsum dolor sit amet
 - [secret-bridge](https://github.com/duo-labs/secret-bridge) - Monitors Github for leaked secrets
 - [earlybird](https://github.com/americanexpress/earlybird) - EarlyBird is a sensitive data detection tool capable of scanning source code repositories for clear text password violations, PII, outdated cryptography methods, key files and more.
 - [Trufflehog-Chrome-Extension](https://github.com/trufflesecurity/Trufflehog-Chrome-Extension) - Trufflehog-Chrome-Extension
+- [noseyparker](https://github.com/praetorian-inc/noseyparker) - Nosey Parker is a command-line program that finds secrets and sensitive information in textual data and Git history. 
 
 ### Git
 
@@ -391,6 +392,7 @@ Lorem ipsum dolor sit amet
 - [git-dumper](https://github.com/arthaud/git-dumper) - A tool to dump a git repository from a website
 - [GitHunter](https://github.com/digininja/GitHunter) - A tool for searching a Git repository for interesting content
 - [dvcs-ripper](https://github.com/kost/dvcs-ripper) - Rip web accessible (distributed) version control systems: SVN/GIT/HG...
+- [Gato (Github Attack TOolkit)](https://github.com/praetorian-inc/gato) - GitHub Self-Hosted Runner Enumeration and Attack Tool 
 
 ### Buckets
 
