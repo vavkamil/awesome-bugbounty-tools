@@ -128,6 +128,7 @@ Lorem ipsum dolor sit amet
 - [gospider](https://github.com/jaeles-project/gospider) - Gospider - Fast web spider written in Go
 - [hakrawler](https://github.com/hakluke/hakrawler) - Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application
 - [crawley](https://github.com/s0rg/crawley) - fast, feature-rich unix-way web scraper/crawler written in Golang.
+- [SpiderSuite](https://github.com/3nock/SpiderSuite) - An advance, cross-platform, GUI web security crawler.
 
 ### Links
 
