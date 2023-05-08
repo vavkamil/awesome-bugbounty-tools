@@ -48,8 +48,6 @@
 
 ## Recon
 
-Lorem ipsum dolor sit amet
-
 ### Subdomain Enumeration
 
 - [Sublist3r](https://github.com/aboul3la/Sublist3r) - Fast subdomains enumeration tool for penetration testers
