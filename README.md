@@ -42,6 +42,7 @@
     - [JSON Web Token](#JSON-Web-Token)
     - [postMessage](#postMessage)
     - [Subdomain Takeover](#Subdomain-Takeover)
+    - [Userful](#Userful)
     - [Uncategorized](#Uncategorized)
 
 ---
@@ -473,7 +474,7 @@ Lorem ipsum dolor sit amet
 - [OWASP ZAP](https://github.com/zaproxy/zaproxy) -  World’s most popular free web security tools and is actively maintained by a dedicated international team of volunteers
 - [SSTImap](https://github.com/vladko312/SSTImap) -  SSTImap is a penetration testing software that can check websites for Code Injection and Server-Side Template Injection vulnerabilities and exploit them, giving access to the operating system itself.
 
-#### Userful
+### Userful
 
 - [anew](https://github.com/tomnomnom/anew) -  A tool for adding new lines to files, skipping duplicates 
 - [gf](https://github.com/tomnomnom/gf) -  A wrapper around grep, to help you grep for things 
