@@ -141,7 +141,8 @@
 - [gau](https://github.com/lc/gau) - Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl.
 - [getJS](https://github.com/003random/getJS) -  A tool to fastly get all javascript sources/files
 - [linx](https://github.com/riza/linx) - Reveals invisible links within JavaScript files
-- [waymore](https://github.com/xnl-h4ck3r/waymore) -  Find way more from the Wayback Machine! 
+- [waymore](https://github.com/xnl-h4ck3r/waymore) -  Find way more from the Wayback Machine!
+- [xnLinkFinder](https://github.com/xnl-h4ck3r/xnLinkFinder) -  A python tool used to discover endpoints, potential parameters, and a target specific wordlist for a given target 
 
 ### Parameters
 
