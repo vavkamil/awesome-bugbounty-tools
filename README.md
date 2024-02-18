@@ -472,7 +472,15 @@ Lorem ipsum dolor sit amet
 - [cariddi](https://github.com/edoardottt/cariddi) - Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, tokens and more...
 - [OWASP ZAP](https://github.com/zaproxy/zaproxy) -  World’s most popular free web security tools and is actively maintained by a dedicated international team of volunteers
 - [SSTImap](https://github.com/vladko312/SSTImap) -  SSTImap is a penetration testing software that can check websites for Code Injection and Server-Side Template Injection vulnerabilities and exploit them, giving access to the operating system itself.
-- 
+
+#### Userful
+
+- [anew](https://github.com/tomnomnom/anew) -  A tool for adding new lines to files, skipping duplicates 
+- [gf](https://github.com/tomnomnom/gf) -  A wrapper around grep, to help you grep for things 
+- [uro](https://github.com/s0md3v/uro) -  declutters url lists for crawling/pentesting 
+- [unfurl](https://github.com/tomnomnom/unfurl) -  Pull out bits of URLs provided on stdin 
+- [qsreplace](https://github.com/tomnomnom/qsreplace) -  Accept URLs on stdin, replace all query string values with a user-supplied value 
+
 ### Uncategorized
 
 - [JSONBee](https://github.com/zigoo0/JSONBee) - A ready to use JSONP endpoints/payloads to help bypass content security policy (CSP) of different websites.
