@@ -51,7 +51,7 @@
 
 ### Subdomain Enumeration
 
-- [Sublist3r](https://github.com/aboul3la/Sublist3r) - Fast subdomains enumeration tool for penetration testers
+- [Sublist3r](https://github.com/huntergregal/Sublist3r) - Fast subdomains enumeration tool for penetration testers
 - [Amass](https://github.com/OWASP/Amass) - In-depth Attack Surface Mapping and Asset Discovery
 - [massdns](https://github.com/blechschmidt/massdns) - A high-performance DNS stub resolver for bulk lookups and reconnaissance (subdomain enumeration)
 - [Findomain](https://github.com/Findomain/Findomain) - The fastest and cross-platform subdomain enumerator, do not waste your time.
