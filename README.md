@@ -42,6 +42,7 @@
     - [JSON Web Token](#JSON-Web-Token)
     - [postMessage](#postMessage)
     - [Subdomain Takeover](#Subdomain-Takeover)
+    - [Useful](#Useful)
     - [Uncategorized](#Uncategorized)
 
 ---
@@ -59,6 +60,7 @@
 - [domained](https://github.com/TypeError/domained) - Multi Tool Subdomain Enumeration
 - [bugcrowd-levelup-subdomain-enumeration](https://github.com/appsecco/bugcrowd-levelup-subdomain-enumeration) - This repository contains all the material from the talk "Esoteric sub-domain enumeration techniques" given at Bugcrowd LevelUp 2017 virtual conference
 - [shuffledns](https://github.com/projectdiscovery/shuffledns) - shuffleDNS is a wrapper around massdns written in go that allows you to enumerate valid subdomains using active bruteforce as well as resolve subdomains with wildcard handling and easy input-output…
+- [puredns](https://github.com/d3mondev/puredns) - Fast domain resolver and subdomain bruteforcing with accurate wildcard filtering  with wilcard(*)
 - [censys-subdomain-finder](https://github.com/christophetd/censys-subdomain-finder) - Perform subdomain enumeration using the certificate transparency logs from Censys.
 - [Turbolist3r](https://github.com/fleetcaptain/Turbolist3r) - Subdomain enumeration tool with analysis features for discovered domains
 - [censys-enumeration](https://github.com/0xbharath/censys-enumeration) - A script to extract subdomains/emails for a given domain using SSL/TLS certificate dataset on Censys
@@ -139,6 +141,8 @@
 - [gau](https://github.com/lc/gau) - Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl.
 - [getJS](https://github.com/003random/getJS) -  A tool to fastly get all javascript sources/files
 - [linx](https://github.com/riza/linx) - Reveals invisible links within JavaScript files
+- [waymore](https://github.com/xnl-h4ck3r/waymore) -  Find way more from the Wayback Machine!
+- [xnLinkFinder](https://github.com/xnl-h4ck3r/xnLinkFinder) -  A python tool used to discover endpoints, potential parameters, and a target specific wordlist for a given target 
 
 ### Parameters
 
@@ -470,7 +474,15 @@ Lorem ipsum dolor sit amet
 - [cariddi](https://github.com/edoardottt/cariddi) - Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, tokens and more...
 - [OWASP ZAP](https://github.com/zaproxy/zaproxy) -  World’s most popular free web security tools and is actively maintained by a dedicated international team of volunteers
 - [SSTImap](https://github.com/vladko312/SSTImap) -  SSTImap is a penetration testing software that can check websites for Code Injection and Server-Side Template Injection vulnerabilities and exploit them, giving access to the operating system itself.
-- 
+
+### Useful
+
+- [anew](https://github.com/tomnomnom/anew) -  A tool for adding new lines to files, skipping duplicates 
+- [gf](https://github.com/tomnomnom/gf) -  A wrapper around grep, to help you grep for things 
+- [uro](https://github.com/s0md3v/uro) -  declutters url lists for crawling/pentesting 
+- [unfurl](https://github.com/tomnomnom/unfurl) -  Pull out bits of URLs provided on stdin 
+- [qsreplace](https://github.com/tomnomnom/qsreplace) -  Accept URLs on stdin, replace all query string values with a user-supplied value 
+
 ### Uncategorized
 
 - [JSONBee](https://github.com/zigoo0/JSONBee) - A ready to use JSONP endpoints/payloads to help bypass content security policy (CSP) of different websites.
