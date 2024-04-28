@@ -83,6 +83,9 @@
 - [scilla](https://github.com/edoardottt/scilla) - Information Gathering tool - DNS / Subdomains / Ports / Directories enumeration
 - [sub3suite](https://github.com/3nock/sub3suite) - A research-grade suite of tools for subdomain enumeration, intelligence gathering and attack surface mapping.
 - [cero](https://github.com/glebarez/cero) - Scrape domain names from SSL certificates of arbitrary hosts 
+- [shosubgo](https://github.com/incogbyte/shosubgo) - Small tool to Grab subdomains using Shodan api
+- [haktrails](https://github.com/hakluke/haktrails) - Golang client for querying SecurityTrails API data
+- [bbot](https://github.com/blacklanternsecurity/bbot) - A recursive internet scanner for hackers
 
 ### Port Scanning
 
@@ -128,6 +131,7 @@
 - [gospider](https://github.com/jaeles-project/gospider) - Gospider - Fast web spider written in Go
 - [hakrawler](https://github.com/hakluke/hakrawler) - Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application
 - [crawley](https://github.com/s0rg/crawley) - fast, feature-rich unix-way web scraper/crawler written in Golang.
+- [katana](https://github.com/projectdiscovery/katana) - A next-generation crawling and spidering framework
 
 ### Links
 
@@ -275,6 +279,7 @@ Lorem ipsum dolor sit amet
 - [rbndr](https://github.com/taviso/rbndr) - Simple DNS Rebinding Service
 - [httprebind](https://github.com/daeken/httprebind) - Automatic tool for DNS rebinding-based SSRF attacks
 - [dnsFookup](https://github.com/makuga01/dnsFookup) - DNS rebinding toolkit
+- [surf](https://github.com/assetnote/surf) - Escalate your SSRF vulnerabilities on Modern Cloud Environments. `surf` allows you to filter a list of hosts, returning a list of viable SSRF candidates.
 
 ### SQL Injection
 
@@ -293,6 +298,7 @@ Lorem ipsum dolor sit amet
 - [Blinder](https://github.com/mhaskar/Blinder) - A python library to automate time-based blind SQL injection
 - [sqliv](https://github.com/the-robot/sqliv) - massive SQL injection vulnerability scanner
 - [nosqli](https://github.com/Charlie-belmer/nosqli) - NoSql Injection CLI tool, for finding vulnerable websites using MongoDB.
+- [ghauri](https://github.com/r0oth3x49/ghauri) - An advanced cross-platform tool that automates the process of detecting and exploiting SQL injection security flaws
 
 ### XSS Injection
 
@@ -346,6 +352,10 @@ Lorem ipsum dolor sit amet
 - [XXEinjector](https://github.com/enjoiz/XXEinjector) - Tool for automatic exploitation of XXE vulnerability using direct and different out of band methods.
 - [oxml_xxe](https://github.com/BuffaloWill/oxml_xxe) - A tool for embedding XXE/XML exploits into different filetypes
 - [metahttp](https://github.com/vp777/metahttp) - A bash script that automates the scanning of a target network for HTTP resources through XXE
+
+### SSTI Injection
+- [tplmap](https://github.com/epinna/tplmap) - Server-Side Template Injection and Code Injection Detection and Exploitation Tool
+- [SSTImap](https://github.com/vladko312/SSTImap) - Automatic SSTI detection tool with interactive interface
 
 ---
 
@@ -424,6 +434,9 @@ Lorem ipsum dolor sit amet
 - [CMSmap](https://github.com/Dionach/CMSmap) -  CMSmap is a python open source CMS scanner that automates the process of detecting security flaws of the most popular CMSs.
 - [joomscan](https://github.com/OWASP/joomscan) - OWASP Joomla Vulnerability Scanner Project
 - [pyfiscan](https://github.com/fgeek/pyfiscan) - Free web-application vulnerability and version scanner
+- [aemhacker](https://github.com/0ang3el/aem-hacker) - Tools to identify vulnerable Adobe Experience Manager (AEM) webapps.
+- [aemscan](https://github.com/Raz0r/aemscan) - Adobe Experience Manager Vulnerability Scanner
+
 
 ### JSON Web Token
 
