@@ -132,6 +132,7 @@
 - [hakrawler](https://github.com/hakluke/hakrawler) - Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application
 - [crawley](https://github.com/s0rg/crawley) - fast, feature-rich unix-way web scraper/crawler written in Golang.
 - [katana](https://github.com/projectdiscovery/katana) - A next-generation crawling and spidering framework
+- [sasori](https://github.com/karthikuj/sasori) - A new age dynamic web crawler built on Puppeteer with support for authentication.
 
 ### Links
 
