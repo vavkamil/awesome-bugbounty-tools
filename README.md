@@ -86,6 +86,7 @@
 - [shosubgo](https://github.com/incogbyte/shosubgo) - Small tool to Grab subdomains using Shodan api
 - [haktrails](https://github.com/hakluke/haktrails) - Golang client for querying SecurityTrails API data
 - [bbot](https://github.com/blacklanternsecurity/bbot) - A recursive internet scanner for hackers
+- [ronin-recon](https://github.com/ronin-rb/ronin-recon#readme) - A recursive recon engine and framework that can enumerate subdomains, DNS records, port scan, grab TLS certs, spider websites, and collect email addresses.
 
 ### Port Scanning
 
@@ -132,6 +133,7 @@
 - [hakrawler](https://github.com/hakluke/hakrawler) - Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application
 - [crawley](https://github.com/s0rg/crawley) - fast, feature-rich unix-way web scraper/crawler written in Golang.
 - [katana](https://github.com/projectdiscovery/katana) - A next-generation crawling and spidering framework
+- [ronin-recon](https://github.com/ronin-rb/ronin-recon#readme) - A recursive recon engine and framework that can enumerate subdomains, DNS records, port scan, grab TLS certs, spider websites, and collect email addresses.
 
 ### Links
 
@@ -147,6 +149,7 @@
 - [linx](https://github.com/riza/linx) - Reveals invisible links within JavaScript files
 - [waymore](https://github.com/xnl-h4ck3r/waymore) -  Find way more from the Wayback Machine!
 - [xnLinkFinder](https://github.com/xnl-h4ck3r/xnLinkFinder) -  A python tool used to discover endpoints, potential parameters, and a target specific wordlist for a given target 
+- [ronin-recon](https://github.com/ronin-rb/ronin-recon#readme) - A recursive recon engine and framework that can enumerate subdomains, DNS records, port scan, grab TLS certs, spider websites, and collect email addresses.
 
 ### Parameters
 
