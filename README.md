@@ -86,6 +86,7 @@
 - [shosubgo](https://github.com/incogbyte/shosubgo) - Small tool to Grab subdomains using Shodan api
 - [haktrails](https://github.com/hakluke/haktrails) - Golang client for querying SecurityTrails API data
 - [bbot](https://github.com/blacklanternsecurity/bbot) - A recursive internet scanner for hackers
+- [Merklemap](https://www.merklemap.com/) - Subdomain enumeration through CT logs.
 
 ### Port Scanning
 
