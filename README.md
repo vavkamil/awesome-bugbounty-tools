@@ -87,6 +87,7 @@
 - [haktrails](https://github.com/hakluke/haktrails) - Golang client for querying SecurityTrails API data
 - [bbot](https://github.com/blacklanternsecurity/bbot) - A recursive internet scanner for hackers
 - [Merklemap](https://www.merklemap.com/) - Subdomain enumeration through CT logs.
+- [SubdomainRadar](https://subdomainradar.io/) - Subdomain Finder with multiple exclusive data sources, API, and Slack/webhook notifications.
 
 ### Port Scanning
 
