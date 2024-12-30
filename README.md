@@ -173,8 +173,6 @@
 
 ## Exploitation
 
-Lorem ipsum dolor sit amet
-
 ### Command Injection
 
 - [commix](https://github.com/commixproject/commix) - Automated All-in-One OS command injection and exploitation tool.
@@ -360,8 +358,6 @@ Lorem ipsum dolor sit amet
 ---
 
 ## Miscellaneous
-
-Lorem ipsum dolor sit amet
 
 ### Passwords
 
