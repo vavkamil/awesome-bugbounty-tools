@@ -60,7 +60,7 @@
 - [domained](https://github.com/TypeError/domained) - Multi Tool Subdomain Enumeration
 - [bugcrowd-levelup-subdomain-enumeration](https://github.com/appsecco/bugcrowd-levelup-subdomain-enumeration) - This repository contains all the material from the talk "Esoteric sub-domain enumeration techniques" given at Bugcrowd LevelUp 2017 virtual conference
 - [shuffledns](https://github.com/projectdiscovery/shuffledns) - shuffleDNS is a wrapper around massdns written in go that allows you to enumerate valid subdomains using active bruteforce as well as resolve subdomains with wildcard handling and easy input-output…
-- [puredns](https://github.com/d3mondev/puredns) - Fast domain resolver and subdomain bruteforcing with accurate wildcard filtering  with wilcard(*)
+- [puredns](https://github.com/d3mondev/puredns) - Fast domain resolver and subdomain bruteforcing with accurate wildcard filtering with wildcard(*)
 - [censys-subdomain-finder](https://github.com/christophetd/censys-subdomain-finder) - Perform subdomain enumeration using the certificate transparency logs from Censys.
 - [Turbolist3r](https://github.com/fleetcaptain/Turbolist3r) - Subdomain enumeration tool with analysis features for discovered domains
 - [censys-enumeration](https://github.com/0xbharath/censys-enumeration) - A script to extract subdomains/emails for a given domain using SSL/TLS certificate dataset on Censys
@@ -308,7 +308,7 @@
 - [xsshunter](https://github.com/mandatoryprogrammer/xsshunter) - The XSS Hunter service - a portable version of XSSHunter.com
 - [dalfox](https://github.com/hahwul/dalfox) - DalFox(Finder Of XSS) / Parameter Analysis and XSS Scanning tool based on golang
 - [xsser](https://github.com/epsylon/xsser) - Cross Site "Scripter" (aka XSSer) is an automatic -framework- to detect, exploit and report XSS vulnerabilities in web-based applications.
-- [XSpear](https://github.com/hahwul/XSpear) - Powerfull XSS Scanning and Parameter analysis tool&gem
+- [XSpear](https://github.com/hahwul/XSpear) - Powerful XSS Scanning and Parameter analysis tool&gem
 - [weaponised-XSS-payloads](https://github.com/hakluke/weaponised-XSS-payloads) - XSS payloads designed to turn alert(1) into P1
 - [tracy](https://github.com/nccgroup/tracy) - A tool designed to assist with finding all sinks and sources of a web application and display these results in a digestible manner.
 - [ground-control](https://github.com/jobertabma/ground-control) - A collection of scripts that run on my web server. Mainly for debugging SSRF, blind XSS, and XXE vulnerabilities.
@@ -462,7 +462,7 @@
 - [cnames](https://github.com/cybercdh/cnames) - take a list of resolved subdomains and output any corresponding CNAMES en masse.
 - [subHijack](https://github.com/vavkamil/old-repos-backup/tree/master/subHijack-master) - Hijacking forgotten & misconfigured subdomains
 - [tko-subs](https://github.com/anshumanbh/tko-subs) - A tool that can help detect and takeover subdomains with dead DNS records
-- [HostileSubBruteforcer](https://github.com/nahamsec/HostileSubBruteforcer) - This app will bruteforce for exisiting subdomains and provide information if the 3rd party host has been properly setup.
+- [HostileSubBruteforcer](https://github.com/nahamsec/HostileSubBruteforcer) - This app will bruteforce for existing subdomains and provide information if the 3rd party host has been properly setup.
 - [second-order](https://github.com/mhmdiaa/second-order) - Second-order subdomain takeover scanner
 - [takeover](https://github.com/mzfr/takeover) - A tool for testing subdomain takeover possibilities at a mass scale.
 - [dnsReaper](https://github.com/punk-security/dnsReaper) - DNS Reaper is yet another sub-domain takeover tool, but with an emphasis on accuracy, speed and the number of signatures in our arsenal!
