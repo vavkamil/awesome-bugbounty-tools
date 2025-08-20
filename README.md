@@ -132,6 +132,7 @@
 - [hakrawler](https://github.com/hakluke/hakrawler) - Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application
 - [crawley](https://github.com/s0rg/crawley) - fast, feature-rich unix-way web scraper/crawler written in Golang.
 - [katana](https://github.com/projectdiscovery/katana) - A next-generation crawling and spidering framework
+- [kiterunner](https://github.com/assetnote/kiterunner) - Fast API endpoint bruteforcer and content discovery tool for modern web applications.
 
 ### Links
 
