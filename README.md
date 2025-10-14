@@ -10,6 +10,7 @@
     - [Screenshots](#Screenshots)
     - [Technologies](#Technologies)
     - [Content Discovery](#Content-Discovery)
+    - [Content Filtering](#Content-Filtering)
     - [Links](#Links)
     - [Parameters](#Parameters)
     - [Fuzzing](#Fuzzing)
@@ -133,6 +134,9 @@
 - [crawley](https://github.com/s0rg/crawley) - fast, feature-rich unix-way web scraper/crawler written in Golang.
 - [katana](https://github.com/projectdiscovery/katana) - A next-generation crawling and spidering framework
 - [kiterunner](https://github.com/assetnote/kiterunner) - Fast API endpoint bruteforcer and content discovery tool for modern web applications.
+
+### Content Filtering
+- [Hacker-Scoper](https://github.com/ItsIgnacioPortal/Hacker-Scoper) - CLI tool for filtering a mixed list of targets (URLs/IPs) according to the bug-bounty program's scope. The scope can be supplied manually, or it can also be detected automatically by just giving hacker-scoper the name of the targeted company. Hacker-Scoper supports IPs, URLs, wildcards, CIDR ranges, Nmap octet ranges, and even full Regex scopes.
 
 ### Links
 
