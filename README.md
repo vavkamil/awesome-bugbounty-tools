@@ -492,6 +492,7 @@
 
 - [anew](https://github.com/tomnomnom/anew) -  A tool for adding new lines to files, skipping duplicates 
 - [gf](https://github.com/tomnomnom/gf) -  A wrapper around grep, to help you grep for things 
+- [pwn.guide](https://pwn.guide) - Learn cybersecurity from more than 150+ tutorials, ranging from web, hardware, radio (SDR)... hacking to forensics, defense & certification training for certs like CompTIA Security+ (SY0-701). Offers free & paid plans (monthly, yearly & lifetime - crypto accepted).
 - [uro](https://github.com/s0md3v/uro) -  declutters url lists for crawling/pentesting 
 - [unfurl](https://github.com/tomnomnom/unfurl) -  Pull out bits of URLs provided on stdin 
 - [qsreplace](https://github.com/tomnomnom/qsreplace) -  Accept URLs on stdin, replace all query string values with a user-supplied value 
