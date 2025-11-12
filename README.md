@@ -42,6 +42,8 @@
     - [JSON Web Token](#JSON-Web-Token)
     - [postMessage](#postMessage)
     - [Subdomain Takeover](#Subdomain-Takeover)
+    - [Vulnerability Scanners](#Vulnerability-Scanners)
+    - [Permutation](#Permutation)
     - [Useful](#Useful)
     - [Uncategorized](#Uncategorized)
 
