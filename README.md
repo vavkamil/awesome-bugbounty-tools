@@ -43,6 +43,7 @@
     - [postMessage](#postMessage)
     - [Subdomain Takeover](#Subdomain-Takeover)
     - [Vulnerability Scanners](#Vulnerability-Scanners)
+    - [Forbidden Bypass](#Forbidden-Bypass)
     - [Permutation](#Permutation)
     - [Useful](#Useful)
     - [Uncategorized](#Uncategorized)
@@ -470,6 +471,7 @@
 - [second-order](https://github.com/mhmdiaa/second-order) - Second-order subdomain takeover scanner
 - [takeover](https://github.com/mzfr/takeover) - A tool for testing subdomain takeover possibilities at a mass scale.
 - [dnsReaper](https://github.com/punk-security/dnsReaper) - DNS Reaper is yet another sub-domain takeover tool, but with an emphasis on accuracy, speed and the number of signatures in our arsenal!
+- [subzy](https://github.com/PentestPad/subzy) - Subdomain takeover tool which works based on matching response fingerprints from `can-i-take-over-xyz`.
 
 ### Vulnerability Scanners
 
@@ -490,6 +492,12 @@
 - [cariddi](https://github.com/edoardottt/cariddi) - Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, tokens and more...
 - [OWASP ZAP](https://github.com/zaproxy/zaproxy) -  World’s most popular free web security tools and is actively maintained by a dedicated international team of volunteers
 - [SSTImap](https://github.com/vladko312/SSTImap) -  SSTImap is a penetration testing software that can check websites for Code Injection and Server-Side Template Injection vulnerabilities and exploit them, giving access to the operating system itself.
+
+### Forbidden Bypass
+
+- [XFFenum](https://github.com/vavkamil/XFFenum) - A simple tool to bypass 403 forbidden end-points behind load balancers (Cloudflare) based on X-Forwarded-For header.
+- [NoMore403](https://github.com/devploit/nomore403) - Advanced tool for security researchers to bypass 403/40X restrictions through smart techniques and adaptive request manipulation.
+- [Forbidden Buster](https://github.com/Sn1r/Forbidden-Buster) - A tool designed to automate various techniques in order to bypass HTTP 401 and 403 response codes and gain access to unauthorized areas in the system.
 
 ### Permutation
 
@@ -520,9 +528,9 @@
 - [android-security-awesome](https://github.com/ashishb/android-security-awesome) - A collection of android security related resources
 - [awesome-mobile-security](https://github.com/vaib25vicky/awesome-mobile-security) - An effort to build a single place for all useful android and iOS security related stuff.
 - [awesome-vulnerable-apps](https://github.com/vavkamil/awesome-vulnerable-apps) - Awesome Vulnerable Applications
-- [XFFenum](https://github.com/vavkamil/XFFenum) - X-Forwarded-For [403 forbidden] enumeration
 - [httpx](https://github.com/projectdiscovery/httpx) - httpx is a fast and multi-purpose HTTP toolkit allow to run multiple probers using retryablehttp library, it is designed to maintain the result reliability with increased threads.
 - [csprecon](https://github.com/edoardottt/csprecon) - Discover new target domains using Content Security Policy 
+- [SecLists](https://github.com/danielmiessler/SecLists) - It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more.
 
 ---
 
