@@ -123,6 +123,7 @@
 - [fingerprintx](https://github.com/praetorian-inc/fingerprintx) - fingerprintx is a standalone utility for service discovery on open ports that works well with other popular bug bounty command line tools.
 - [graphw00f](https://github.com/dolevf/graphw00f) - graphw00f is GraphQL Server Engine Fingerprinting utility for software security professionals looking to learn more about what technology is behind a given GraphQL endpoint.
 - [wafw00f](https://github.com/EnableSecurity/wafw00f) - wafw00f allows one to identify and fingerprint Web Application Firewall (WAF) products protecting a website.
+- [cdncheck](https://github.com/projectdiscovery/cdncheck) - cdncheck is a tool for identifying the technology associated with dns / ip network addresses.
 
 ### Content Discovery
 
@@ -154,6 +155,7 @@
 - [linx](https://github.com/riza/linx) - Reveals invisible links within JavaScript files
 - [waymore](https://github.com/xnl-h4ck3r/waymore) -  Find way more from the Wayback Machine!
 - [xnLinkFinder](https://github.com/xnl-h4ck3r/xnLinkFinder) -  A python tool used to discover endpoints, potential parameters, and a target specific wordlist for a given target 
+- [URLFinder](https://github.com/projectdiscovery/urlfinder) - A high-speed tool for passively gathering URLs, optimized for efficient web asset discovery without active scanning.
 
 ### Parameters
 
@@ -548,6 +550,8 @@
 - [CSPBypass](https://github.com/renniepak/CSPBypass) - a tool designed to help bypass restrictive Content Security Policies (CSP) and exploit XSS (Cross-Site Scripting) vulnerabilities on sites where injections are blocked by CSPs that only allow certain whitelisted domains.
 - [BigBountyRecon](https://github.com/Viralmaniar/BigBountyRecon) - BigBountyRecon tool utilises 58 different techniques using various Google dorks and open source tools to expedite the process of initial reconnaissance on the target organisation.
 - [Bypass bot detection](https://github.com/portswigger/bypass-bot-detection) - Burp Suite extension that mutates ciphers to bypass TLS-fingerprint based bot detection.
+- [uncover](https://github.com/projectdiscovery/uncover) - uncover is a go wrapper using APIs of well known search engines to quickly discover exposed hosts on the internet.
+- [cvemap](https://github.com/projectdiscovery/cvemap) - Modern CLI for exploring vulnerability data with powerful search, filtering, and analysis capabilities.
 
 ---
 
