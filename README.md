@@ -527,7 +527,6 @@
 - [uro](https://github.com/s0md3v/uro) -  declutters url lists for crawling/pentesting 
 - [unfurl](https://github.com/tomnomnom/unfurl) -  Pull out bits of URLs provided on stdin 
 - [qsreplace](https://github.com/tomnomnom/qsreplace) -  Accept URLs on stdin, replace all query string values with a user-supplied value 
-- [notify](https://github.com/projectdiscovery/notify) - Notify is a Go-based assistance package that enables you to stream the output of several tools (or read from a file) and publish it to a variety of supported platforms.
 
 ### Uncategorized
 
@@ -552,6 +551,7 @@
 - [Bypass bot detection](https://github.com/portswigger/bypass-bot-detection) - Burp Suite extension that mutates ciphers to bypass TLS-fingerprint based bot detection.
 - [uncover](https://github.com/projectdiscovery/uncover) - uncover is a go wrapper using APIs of well known search engines to quickly discover exposed hosts on the internet.
 - [cvemap](https://github.com/projectdiscovery/cvemap) - Modern CLI for exploring vulnerability data with powerful search, filtering, and analysis capabilities.
+- [notify](https://github.com/projectdiscovery/notify) - Notify is a Go-based assistance package that enables you to stream the output of several tools (or read from a file) and publish it to a variety of supported platforms.
 
 ---
 
