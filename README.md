@@ -103,6 +103,7 @@
 - [nmap](https://github.com/nmap/nmap) - Nmap - the Network Mapper. Github mirror of official SVN repository.
 - [sandmap](https://github.com/trimstray/sandmap) - Nmap on steroids. Simple CLI with the ability to run pure Nmap engine, 31 modules with 459 scan profiles.
 - [ScanCannon](https://github.com/johnnyxmas/ScanCannon) - Combines the speed of masscan with the reliability and detailed enumeration of nmap
+- [nrich](https://gitlab.com/shodan-public/nrich) - A command-line tool to quickly analyze all IPs in a file and see which ones have open ports/ vulnerabilities.
 
 ### Screenshots
 
@@ -161,6 +162,9 @@
 - [xnLinkFinder](https://github.com/xnl-h4ck3r/xnLinkFinder) -  A python tool used to discover endpoints, potential parameters, and a target specific wordlist for a given target 
 - [URLFinder](https://github.com/projectdiscovery/urlfinder) - A high-speed tool for passively gathering URLs, optimized for efficient web asset discovery without active scanning.
 - [github-endpoints](https://github.com/gwen001/github-endpoints) - This Go tool performs searches on GitHub and parses the results to find endpoints of a given domain.
+- [jsleak](https://github.com/byt3hx/jsleak) - jsleak is a tool to find secret , paths or links in JavaScript files or source code.
+- [jsfinder](https://github.com/kacakb/jsfinder) - A tool that scans web pages to find JavaScript file URLs linked in the HTML source code.
+- [jsluice](https://github.com/BishopFox/jsluice) - This tool extracts URLs, paths, secrets, and other interesting bits from JavaScript files. Values are extracted based not just on how they look, but also based on how they are used.
 
 ### Parameters
 
@@ -408,6 +412,8 @@
 - [noseyparker](https://github.com/praetorian-inc/noseyparker) - Nosey Parker is a command-line program that finds secrets and sensitive information in textual data and Git history.
 - [GitHound](https://github.com/tillson/git-hound) - Recon tool leveraging Code Search API. Scans for exposed API keys across all of GitHub, not just known repos and orgs. Support for GitHub dorks.
 - [cariddi](https://github.com/edoardottt/cariddi) - Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, tokens and more...
+- [SecretFinder](https://github.com/m4ll0k/SecretFinder) - A python script for finding sensitive data (apikeys, accesstoken,jwt,..) and search anything on javascript files.
+- [js-snitch](https://github.com/vavkamil/js-snitch) - Scans remote JavaScript files with Trufflehog + Semgrep to detect leaked secrets.
 
 
 ### Git
@@ -562,6 +568,11 @@
 - [uncover](https://github.com/projectdiscovery/uncover) - uncover is a go wrapper using APIs of well known search engines to quickly discover exposed hosts on the internet.
 - [cvemap](https://github.com/projectdiscovery/cvemap) - Modern CLI for exploring vulnerability data with powerful search, filtering, and analysis capabilities.
 - [notify](https://github.com/projectdiscovery/notify) - Notify is a Go-based assistance package that enables you to stream the output of several tools (or read from a file) and publish it to a variety of supported platforms.
+- [cut-cdn](https://github.com/ImAyrix/cut-cdn) - Removing CDN IPs from the list of IP addresses.
+- [MurMurHash](https://github.com/Viralmaniar/MurMurHash) - This little tool is to calculate a MurmurHash value of a favicon. This favicon hash can be used to look for similar websites on various search engines.
+- [hakip2host](https://github.com/hakluke/hakip2host) - hakip2host takes a list of IP addresses via stdin, then does a series of checks to return associated domain names.
+- [jsmon](https://github.com/robre/jsmon) - A Javascript change monitoring tool for Bug Bounty.
+- [related-domains](https://github.com/gwen001/related-domains) - Find related domains of a given domain. this tool search for domains that have been registered by the same peoples/companies.
 
 ---
 
