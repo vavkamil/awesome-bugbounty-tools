@@ -578,6 +578,8 @@
 - [jsmon](https://github.com/robre/jsmon) - A Javascript change monitoring tool for Bug Bounty.
 - [related-domains](https://github.com/gwen001/related-domains) - Find related domains of a given domain. this tool search for domains that have been registered by the same peoples/companies.
 - [vavkamil.cz](https://github.com/vavkamil/vavkamil.cz) - My personal blog
+- [API-Keys-Snitch](https://github.com/vavkamil/API-Keys-Snitch) - Burp extension to detect & report exposed API keys as an Informative issue 
+- [404](https://github.com/vavkamil/) - This one doesn't exist
 
 ---
 
