@@ -418,6 +418,7 @@
 - [cariddi](https://github.com/edoardottt/cariddi) - Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, tokens and more...
 - [SecretFinder](https://github.com/m4ll0k/SecretFinder) - A python script for finding sensitive data (apikeys, accesstoken,jwt,..) and search anything on javascript files.
 - [js-snitch](https://github.com/vavkamil/js-snitch) - Scans remote JavaScript files with Trufflehog + Semgrep to detect leaked secrets.
+- [keyhacks](https://github.com/streaak/keyhacks) - KeyHacks shows methods to validate different API keys found on a Bug Bounty Program or a pentest.
 
 
 ### Git
@@ -428,6 +429,7 @@
 - [GitHunter](https://github.com/digininja/GitHunter) - A tool for searching a Git repository for interesting content
 - [dvcs-ripper](https://github.com/kost/dvcs-ripper) - Rip web accessible (distributed) version control systems: SVN/GIT/HG...
 - [Gato (Github Attack TOolkit)](https://github.com/praetorian-inc/gato) - GitHub Self-Hosted Runner Enumeration and Attack Tool 
+- [zizmor](https://github.com/zizmorcore/zizmor) - Static analysis tool for GitHub Actions 
 
 ### Buckets
 
@@ -577,11 +579,6 @@
 - [hakip2host](https://github.com/hakluke/hakip2host) - hakip2host takes a list of IP addresses via stdin, then does a series of checks to return associated domain names.
 - [jsmon](https://github.com/robre/jsmon) - A Javascript change monitoring tool for Bug Bounty.
 - [related-domains](https://github.com/gwen001/related-domains) - Find related domains of a given domain. this tool search for domains that have been registered by the same peoples/companies.
-- [vavkamil.cz](https://github.com/vavkamil/vavkamil.cz) - My personal blog
-- [API-Keys-Snitch](https://github.com/vavkamil/API-Keys-Snitch) - Burp extension to detect & report exposed API keys as an Informative issue 
-- [404](https://github.com/vavkamil/foo) - This one doesn't exist
-- [not-gh](https://vavkamil.cz) - This is not GitHub link
-- [js-snitch](https://github.com/vavkamil/js-snitch) - This is duplicate, already in README
 
 ---
 
