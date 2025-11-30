@@ -22,12 +22,12 @@ jobs:
 
       - name: Fetch base branch
         run: |
-          git fetch origin ${{ github.base_ref }} --depth=1
+          git fetch origin main --depth=1
 
       - name: Extract newly added URLs and GitHub repo links
         run: |
           # Show diff between base branch and PR HEAD, only for README
-          git diff --unified=0 origin/${{ github.base_ref }}...HEAD -- README.md > diff.txt
+          git diff --unified=0 origin/main...HEAD -- README.md > diff.txt
 
           # Extract ALL added https:// URLs from added (+) lines
           sed -n 's/^+.*\(https:\/\/[^ )]*\).*/\1/p' diff.txt \
