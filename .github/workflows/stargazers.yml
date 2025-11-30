@@ -1,0 +1,69 @@
+name: Stargazers
+
+on:
+  pull_request:
+    paths:
+      - 'README.md'
+
+permissions: {}
+
+jobs:
+  check-new-links:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5.0.0
+        with:
+          fetch-depth: 0  # we need history for diff
+
+      - name: Fetch base branch
+        run: |
+          git fetch origin ${{ github.base_ref }} --depth=1
+
+      - name: Extract newly added GitHub repo links
+        run: |
+          # Show diff between base branch and PR HEAD, only for README
+          git diff --unified=0 origin/${{ github.base_ref }}...HEAD -- README.md > diff.txt
+
+          # Extract only added (+) lines that contain github.com, strip the leading '+'
+          # Then use a simple regex-ish sed to grab the URL
+          sed -n 's/^+.*\(https:\/\/github.com\/[^ )]*\).*/\1/p' diff.txt \
+            | sort -u > new_links.txt
+
+          echo "New links found:"
+          cat new_links.txt || echo "None"
+
+      - name: Check stars for new links (unauthenticated)
+        run: |
+          set -euo pipefail
+
+          while read -r url; do
+            [ -z "$url" ] && continue
+
+            repo="$(printf '%s\n' "$url" | sed -E 's#https://github.com/([^/]+/[^/]+).*#\1#')"
+            [ -z "$repo" ] && continue
+
+            echo "Checking $repo"
+
+            resp=$(curl -s "https://api.github.com/repos/$repo")
+            msg=$(echo "$resp" | jq -r '.message // empty')
+
+            if [ "$msg" = "Not Found" ]; then
+              echo "::error ::Repository $repo does not exist (404)"
+              exit_code=1
+              continue
+            fi
+
+            stars=$(echo "$resp" | jq -r '.stargazers_count // 0')
+            echo "Stars: $stars"
+
+            if [ "$stars" -lt 50 ]; then
+              echo "::error ::Repository $repo has only $stars stars (< 50)"
+              exit_code=1
+            fi
+          done < new_links.txt
+
+          exit ${exit_code:-0}
