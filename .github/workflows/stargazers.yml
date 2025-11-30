@@ -23,31 +23,65 @@ jobs:
         run: |
           git fetch origin ${{ github.base_ref }} --depth=1
 
-      - name: Extract newly added GitHub repo links
+      - name: Extract newly added URLs and GitHub repo links
         run: |
           # Show diff between base branch and PR HEAD, only for README
           git diff --unified=0 origin/${{ github.base_ref }}...HEAD -- README.md > diff.txt
 
-          # Extract only added (+) lines that contain github.com, strip the leading '+'
-          # Then use a simple regex-ish sed to grab the URL
-          sed -n 's/^+.*\(https:\/\/github.com\/[^ )]*\).*/\1/p' diff.txt \
-            | sort -u > new_links.txt
+          # Extract ALL added https:// URLs from added (+) lines
+          sed -n 's/^+.*\(https:\/\/[^ )]*\).*/\1/p' diff.txt \
+            | sort -u > added_urls.txt || true
 
-          echo "New links found:"
+          # Ensure the file exists even if empty
+          touch added_urls.txt
+
+          # Extract only GitHub URLs from the added URLs
+          grep '^https://github\.com/' added_urls.txt > new_links.txt || true
+          touch new_links.txt
+
+          echo "All added URLs:"
+          cat added_urls.txt || echo "None"
+
+          echo "New GitHub links:"
           cat new_links.txt || echo "None"
 
-      - name: Check stars for new links (unauthenticated)
+      - name: Warn on non-GitHub links
+        run: |
+          # Any URLs not starting with https://github.com/
+          grep -v '^https://github\.com/' added_urls.txt > non_github.txt || true
+          touch non_github.txt
+
+          if [ -s non_github.txt ]; then
+            echo "::warning ::Detected added URLs that are NOT GitHub repository links:"
+            cat non_github.txt
+          else
+            echo "No non-GitHub URLs detected."
+          fi
+
+      - name: Check stars for new GitHub links (unauthenticated)
         run: |
           set -euo pipefail
 
+          exit_code=0
+
+          # If there were any non-GitHub URLs, treat that as an error condition too
+          if [ -s non_github.txt ]; then
+            echo "::error ::Non-GitHub URLs were added in README.md; only GitHub repositories are allowed."
+            cat non_github.txt
+            exit_code=1
+          fi
+
+          # Now check each new GitHub repository link
           while read -r url; do
             [ -z "$url" ] && continue
 
+            # Normalize to owner/repo from the URL
             repo="$(printf '%s\n' "$url" | sed -E 's#https://github.com/([^/]+/[^/]+).*#\1#')"
             [ -z "$repo" ] && continue
 
             echo "Checking $repo"
 
+            # Unauthenticated GitHub API call
             resp=$(curl -s "https://api.github.com/repos/$repo")
             msg=$(echo "$resp" | jq -r '.message // empty')
 
@@ -66,4 +100,4 @@ jobs:
             fi
           done < new_links.txt
 
-          exit ${exit_code:-0}
+          exit "$exit_code"
