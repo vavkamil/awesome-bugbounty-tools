@@ -31,8 +31,6 @@ jobs:
           # Extract ALL added https:// URLs from added (+) lines
           sed -n 's/^+.*\(https:\/\/[^ )]*\).*/\1/p' diff.txt \
             | sort -u > added_urls.txt || true
-
-          # Ensure the file exists even if empty
           touch added_urls.txt
 
           # Extract only GitHub URLs from the added URLs
@@ -44,6 +42,28 @@ jobs:
 
           echo "New GitHub links:"
           cat new_links.txt || echo "None"
+
+          # Extract ALL GitHub URLs from the current README (after PR changes)
+          grep -o 'https://github.com/[^ )]*' README.md > all_github_urls.txt || true
+          touch all_github_urls.txt
+
+          # Normalize all GitHub URLs in README to owner/repo
+          sed -E 's#https://github.com/([^/]+/[^/]+).*#\1#' all_github_urls.txt \
+            | sed '/^$/d' \
+            | sort > all_repos.txt || true
+          touch all_repos.txt
+
+          # Normalize only newly added GitHub URLs to owner/repo
+          sed -E 's#https://github.com/([^/]+/[^/]+).*#\1#' new_links.txt \
+            | sed '/^$/d' \
+            | sort -u > new_repos.txt || true
+          touch new_repos.txt
+
+          echo "All GitHub repositories in README (normalized):"
+          cat all_repos.txt || echo "None"
+
+          echo "New GitHub repositories (normalized):"
+          cat new_repos.txt || echo "None"
 
       - name: Warn on non-GitHub links
         run: |
@@ -58,16 +78,44 @@ jobs:
             echo "No non-GitHub URLs detected."
           fi
 
+      - name: Detect duplicate GitHub repositories
+        run: |
+          # Prepare file for duplicate repos
+          : > duplicates.txt
+
+          # For each newly added repo, check how many times it appears in all_repos.txt
+          while read -r repo; do
+            [ -z "$repo" ] && continue
+            count=$(grep -c "^$repo$" all_repos.txt || true)
+            if [ "$count" -gt 1 ]; then
+              echo "$repo" >> duplicates.txt
+            fi
+          done < new_repos.txt
+
+          if [ -s duplicates.txt ]; then
+            echo "::warning ::The following GitHub repositories are duplicated in README.md:"
+            sort -u duplicates.txt
+          else
+            echo "No duplicate GitHub repositories detected."
+          fi
+
       - name: Check stars for new GitHub links (unauthenticated)
         run: |
           set -euo pipefail
 
           exit_code=0
 
-          # If there were any non-GitHub URLs, treat that as an error condition too
+          # If there were any non-GitHub URLs, treat that as an error condition
           if [ -s non_github.txt ]; then
             echo "::error ::Non-GitHub URLs were added in README.md; only GitHub repositories are allowed."
             cat non_github.txt
+            exit_code=1
+          fi
+
+          # If there were duplicate GitHub repos, treat that as an error condition
+          if [ -s duplicates.txt ]; then
+            echo "::error ::Duplicate GitHub repositories detected in README.md:"
+            sort -u duplicates.txt
             exit_code=1
           fi
 

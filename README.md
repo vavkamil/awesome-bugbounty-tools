@@ -581,6 +581,7 @@
 - [API-Keys-Snitch](https://github.com/vavkamil/API-Keys-Snitch) - Burp extension to detect & report exposed API keys as an Informative issue 
 - [404](https://github.com/vavkamil/foo) - This one doesn't exist
 - [not-gh](https://vavkamil.cz) - This is not GitHub link
+- [js-snitch](https://github.com/vavkamil/js-snitch) - This is duplicate, already in README
 
 ---
 
