@@ -178,6 +178,7 @@
 - [Arjun](https://github.com/s0md3v/Arjun) - HTTP parameter discovery suite.
 - [ParamSpider](https://github.com/devanshbatham/ParamSpider) - Mining parameters from dark corners of Web Archives.
 - [x8](https://github.com/Sh1Yo/x8) - Hidden parameters discovery suite written in Rust.
+- [wayparam](https://github.com/aleff-github/wayparam) - Fetch and normalize parameterized URLs from the Wayback CDX API (OSINT, inspired by ParamSpider).
 
 ### Fuzzing
 
