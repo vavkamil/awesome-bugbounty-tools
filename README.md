@@ -450,6 +450,7 @@
 - [CloudBrute](https://github.com/0xsha/CloudBrute) - Awesome cloud enumerator
 - [s3cario](https://github.com/0xspade/s3cario) - This tool will get the CNAME first if it's a valid Amazon s3 bucket and if it's not, it will try to check if the domain is a bucket name.
 - [S3Cruze](https://github.com/JR0ch17/S3Cruze) - All-in-one AWS S3 bucket tool for pentesters.
+- [s3dns](https://github.com/olizimmermann/s3dns) - Passive DNS-based discovery of S3 (and other cloud) buckets by resolving CNAMEs and IPs during recon—ideal for stealthy and early identification of cloud storage exposures 
 
 ### CMS
 
