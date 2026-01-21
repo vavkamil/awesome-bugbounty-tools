@@ -168,6 +168,7 @@
 - [github-endpoints](https://github.com/gwen001/github-endpoints) - This Go tool performs searches on GitHub and parses the results to find endpoints of a given domain.
 - [jsleak](https://github.com/byt3hx/jsleak) - jsleak is a tool to find secret , paths or links in JavaScript files or source code.
 - [jsfinder](https://github.com/kacakb/jsfinder) - A tool that scans web pages to find JavaScript file URLs linked in the HTML source code.
+- [urlX](https://github.com/alhamrizvi-cloud/urlx) – Multi-source URL discovery, crawling & live host probing for bug bounty recon.
 - [jsluice](https://github.com/BishopFox/jsluice) - This tool extracts URLs, paths, secrets, and other interesting bits from JavaScript files. Values are extracted based not just on how they look, but also based on how they are used.
 
 ### Parameters
@@ -178,6 +179,8 @@
 - [Arjun](https://github.com/s0md3v/Arjun) - HTTP parameter discovery suite.
 - [ParamSpider](https://github.com/devanshbatham/ParamSpider) - Mining parameters from dark corners of Web Archives.
 - [x8](https://github.com/Sh1Yo/x8) - Hidden parameters discovery suite written in Rust.
+- - [urlX](https://github.com/alhamrizvi-cloud/urlx) – Multi-source URL discovery, crawling & live host probing for bug bounty recon.
+
 
 ### Fuzzing
 
@@ -190,6 +193,7 @@
 - [fuzzapi](https://github.com/Fuzzapi/fuzzapi) - Fuzzapi is a tool used for REST API pentesting and uses API_Fuzzer gem
 - [qsfuzz](https://github.com/ameenmaali/qsfuzz) - qsfuzz (Query String Fuzz) allows you to build your own rules to fuzz query strings and easily identify vulnerabilities.
 - [vaf](https://github.com/d4rckh/vaf) - very advanced (web) fuzzer written in Nim.
+- - [urlX](https://github.com/alhamrizvi-cloud/urlx) – Multi-source URL discovery, crawling & live host probing for bug bounty recon.
 
 ---
 
