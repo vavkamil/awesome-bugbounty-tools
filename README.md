@@ -14,6 +14,7 @@
     - [Links](#Links)
     - [Parameters](#Parameters)
     - [Fuzzing](#Fuzzing)
+    - [Monitoring](#Monitoring)
 
 - [Exploitation](#Exploitation)
     - [Command Injection](#Command-Injection)
