@@ -34,6 +34,7 @@
     - [SQL Injection](#SQL-Injection)
     - [XSS Injection](#XSS-Injection)
     - [XXE Injection](#XXE-Injection)
+    - [Cache Poisoning](#Web-Cache-Poisoning)
 
 - [Miscellaneous](#Miscellaneous)
     - [Passwords](#Passwords)
@@ -68,7 +69,6 @@
 - [bugcrowd-levelup-subdomain-enumeration](https://github.com/appsecco/bugcrowd-levelup-subdomain-enumeration) - This repository contains all the material from the talk "Esoteric sub-domain enumeration techniques" given at Bugcrowd LevelUp 2017 virtual conference
 - [shuffledns](https://github.com/projectdiscovery/shuffledns) - shuffleDNS is a wrapper around massdns written in go that allows you to enumerate valid subdomains using active bruteforce as well as resolve subdomains with wildcard handling and easy input-output…
 - [puredns](https://github.com/d3mondev/puredns) - Fast domain resolver and subdomain bruteforcing with accurate wildcard filtering with wildcard(*)
-- [alterx](https://github.com/projectdiscovery/alterx) - Fast and customizable subdomain wordlist generator using DSL.
 - [censys-subdomain-finder](https://github.com/christophetd/censys-subdomain-finder) - Perform subdomain enumeration using the certificate transparency logs from Censys.
 - [Turbolist3r](https://github.com/fleetcaptain/Turbolist3r) - Subdomain enumeration tool with analysis features for discovered domains
 - [censys-enumeration](https://github.com/0xbharath/censys-enumeration) - A script to extract subdomains/emails for a given domain using SSL/TLS certificate dataset on Censys
@@ -177,7 +177,7 @@
 ### Parameters
 
 - [parameth](https://github.com/maK-/parameth) - This tool can be used to brute discover GET and POST parameters
-- [param-miner](https://github.com/PortSwigger/param-miner) - This extension identifies hidden, unlinked parameters. It's particularly useful for finding web cache poisoning vulnerabilities.
+- [param-miner](https://github.com/PortSwigger/param-miner) - This extension identifies hidden, unlinked parameters. It's particularly useful for finding web alterx poisoning vulnerabilities.
 - [ParamPamPam](https://github.com/Bo0oM/ParamPamPam) - This tool for brute discover GET and POST parameters.
 - [Arjun](https://github.com/s0md3v/Arjun) - HTTP parameter discovery suite.
 - [ParamSpider](https://github.com/devanshbatham/ParamSpider) - Mining parameters from dark corners of Web Archives.
@@ -284,6 +284,7 @@
 - [smuggler](https://github.com/defparam/smuggler) - Smuggler - An HTTP Request Smuggling / Desync testing tool written in Python 3
 - [h2csmuggler](https://github.com/BishopFox/h2csmuggler) - HTTP Request Smuggling over HTTP/2 Cleartext (h2c)
 - [tiscripts](https://github.com/defparam/tiscripts) - These scripts I use to create Request Smuggling Desync payloads for CLTE and TECL style attacks.
+- [smugglex](github.com/hahwul/smugglex) - Rust-powered HTTP Request Smuggling Scanner.  
 
 ### Server Side Request Forgery
 
@@ -385,7 +386,10 @@
 - [tplmap](https://github.com/epinna/tplmap) - Server-Side Template Injection and Code Injection Detection and Exploitation Tool
 - [SSTImap](https://github.com/vladko312/SSTImap) - Automatic SSTI detection tool with interactive interface
 
----
+
+### Web-Cache-Poisoning 
+- [toxicache](https://github.com/xhzeem/toxicache) - Go scanner to find web cache poisoning vulnerabilities in a list of URLs .
+
 
 ## Miscellaneous
 
