@@ -56,7 +56,7 @@
 ## Recon
 
 ### Subdomain Enumeration
-
+- [subdominator](https://github.com/RevoltSecurities/Subdominator) - Fast and powerfull to enumerate subdomains (50+ passive results).
 - [Sublist3r](https://github.com/aboul3la/Sublist3r) - Fast subdomains enumeration tool for penetration testers
 - [Amass](https://github.com/OWASP/Amass) - In-depth Attack Surface Mapping and Asset Discovery
 - [massdns](https://github.com/blechschmidt/massdns) - A high-performance DNS stub resolver for bulk lookups and reconnaissance (subdomain enumeration)
