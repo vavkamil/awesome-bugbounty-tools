@@ -394,11 +394,16 @@
 
 ## Waf Evasion
 #cli :
+
 - [nomore403](https://github.com/devploit/nomore403) - 🚫 Advanced tool for security researchers to bypass 403/40X restrictions .
 
-#burpSuite Plugin :
-- [toxicache](https://github.com/assetnote/nowafpls/) - Burp Plugin to Bypass WAFs through the insertion of Junk Data .
+- [XFFenum](https://github.com/vavkamil/XFFenum) - A simple tool to bypass 403 forbidden end-points behind load balancers (Cloudflare) based on X-Forwarded-For header.
 
+- [Forbidden Buster](https://github.com/Sn1r/Forbidden-Buster) - A tool designed to automate various techniques in order to bypass HTTP 401 and 403 response codes and gain access to unauthorized areas in the system.
+
+#burpSuite Plugin :
+- [nowafpls](https://github.com/assetnote/nowafpls/) - Burp Plugin to Bypass WAFs through the insertion of Junk Data .
+  
 ---
 
 ## Miscellaneous
@@ -539,11 +544,6 @@
 - [SSTImap](https://github.com/vladko312/SSTImap) -  SSTImap is a penetration testing software that can check websites for Code Injection and Server-Side Template Injection vulnerabilities and exploit them, giving access to the operating system itself.
 - [Lonkero](https://github.com/bountyyfi/lonkero) - Enterprise-grade web vulnerability scanner with 60+ attack modules, built in Rust for penetration testing and security assessments.
 
-### Forbidden Bypass
-
-- [XFFenum](https://github.com/vavkamil/XFFenum) - A simple tool to bypass 403 forbidden end-points behind load balancers (Cloudflare) based on X-Forwarded-For header.
-- [NoMore403](https://github.com/devploit/nomore403) - Advanced tool for security researchers to bypass 403/40X restrictions through smart techniques and adaptive request manipulation.
-- [Forbidden Buster](https://github.com/Sn1r/Forbidden-Buster) - A tool designed to automate various techniques in order to bypass HTTP 401 and 403 response codes and gain access to unauthorized areas in the system.
 
 ### Permutation
 
