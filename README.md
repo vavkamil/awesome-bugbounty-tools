@@ -14,6 +14,7 @@
     - [Links](#Links)
     - [Parameters](#Parameters)
     - [Fuzzing](#Fuzzing)
+    - [Monitoring](#Monitoring)
 
 - [Exploitation](#Exploitation)
     - [Command Injection](#Command-Injection)
@@ -33,6 +34,7 @@
     - [SQL Injection](#SQL-Injection)
     - [XSS Injection](#XSS-Injection)
     - [XXE Injection](#XXE-Injection)
+    - [Cache Poisoning](#Web-Cache-Poisoning)
 
 - [Miscellaneous](#Miscellaneous)
     - [Passwords](#Passwords)
@@ -56,7 +58,7 @@
 ## Recon
 
 ### Subdomain Enumeration
-
+- [subdominator](https://github.com/RevoltSecurities/Subdominator) - Fast and powerfull to enumerate subdomains (50+ passive results ).
 - [Sublist3r](https://github.com/aboul3la/Sublist3r) - Fast subdomains enumeration tool for penetration testers
 - [Amass](https://github.com/OWASP/Amass) - In-depth Attack Surface Mapping and Asset Discovery
 - [massdns](https://github.com/blechschmidt/massdns) - A high-performance DNS stub resolver for bulk lookups and reconnaissance (subdomain enumeration)
@@ -105,6 +107,7 @@
 - [sandmap](https://github.com/trimstray/sandmap) - Nmap on steroids. Simple CLI with the ability to run pure Nmap engine, 31 modules with 459 scan profiles.
 - [ScanCannon](https://github.com/johnnyxmas/ScanCannon) - Combines the speed of masscan with the reliability and detailed enumeration of nmap
 - [nrich](https://gitlab.com/shodan-public/nrich) - A command-line tool to quickly analyze all IPs in a file and see which ones have open ports/ vulnerabilities.
+- [NimScan](https://github.com/elddy/NimScan/) - Fast Port Scanner 🚀 
 
 ### Screenshots
 
@@ -146,6 +149,7 @@
 - [crawley](https://github.com/s0rg/crawley) - fast, feature-rich unix-way web scraper/crawler written in Golang.
 - [katana](https://github.com/projectdiscovery/katana) - A next-generation crawling and spidering framework
 - [kiterunner](https://github.com/assetnote/kiterunner) - Fast API endpoint bruteforcer and content discovery tool for modern web applications.
+- [vaf](https://github.com/andreiverse/vaf) - Vaf is a cross-platform very advanced and fast web fuzzer written in nim .
 
 ### Content Filtering
 - [Hacker-Scoper](https://github.com/ItsIgnacioPortal/Hacker-Scoper) - CLI tool for filtering a mixed list of targets (URLs/IPs) according to the bug-bounty program's scope. The scope can be supplied manually, or it can also be detected automatically by just giving hacker-scoper the name of the targeted company. Hacker-Scoper supports IPs, URLs, wildcards, CIDR ranges, Nmap octet ranges, and even full Regex scopes.
@@ -173,7 +177,7 @@
 ### Parameters
 
 - [parameth](https://github.com/maK-/parameth) - This tool can be used to brute discover GET and POST parameters
-- [param-miner](https://github.com/PortSwigger/param-miner) - This extension identifies hidden, unlinked parameters. It's particularly useful for finding web cache poisoning vulnerabilities.
+- [param-miner](https://github.com/PortSwigger/param-miner) - This extension identifies hidden, unlinked parameters. It's particularly useful for finding web alterx poisoning vulnerabilities.
 - [ParamPamPam](https://github.com/Bo0oM/ParamPamPam) - This tool for brute discover GET and POST parameters.
 - [Arjun](https://github.com/s0md3v/Arjun) - HTTP parameter discovery suite.
 - [ParamSpider](https://github.com/devanshbatham/ParamSpider) - Mining parameters from dark corners of Web Archives.
@@ -191,6 +195,9 @@
 - [qsfuzz](https://github.com/ameenmaali/qsfuzz) - qsfuzz (Query String Fuzz) allows you to build your own rules to fuzz query strings and easily identify vulnerabilities.
 - [vaf](https://github.com/d4rckh/vaf) - very advanced (web) fuzzer written in Nim.
 
+### Monitoring
+
+- [bbscope](https://github.com/sw33tLie/bbscope) - Scope aggregation tool for HackerOne, Bugcrowd, Intigriti, YesWeHack, Immunefi
 ---
 
 ## Exploitation
@@ -202,6 +209,7 @@
 ### CORS Misconfiguration
 
 - [Corsy](https://github.com/s0md3v/Corsy) - CORS Misconfiguration Scanner
+- [Corser](https://github.com/cyinnove/corser) - Corser is a Golang CLI Application for Advanced CORS Misconfiguration Detection.
 - [CORStest](https://github.com/RUB-NDS/CORStest) - A simple CORS misconfiguration scanner
 - [cors-scanner](https://github.com/laconicwolf/cors-scanner) - A multi-threaded scanner that helps identify CORS flaws/misconfigurations
 - [CorsMe](https://github.com/Shivangx01b/CorsMe) - Cross Origin Resource Sharing MisConfiguration Scanner
@@ -276,6 +284,7 @@
 - [smuggler](https://github.com/defparam/smuggler) - Smuggler - An HTTP Request Smuggling / Desync testing tool written in Python 3
 - [h2csmuggler](https://github.com/BishopFox/h2csmuggler) - HTTP Request Smuggling over HTTP/2 Cleartext (h2c)
 - [tiscripts](https://github.com/defparam/tiscripts) - These scripts I use to create Request Smuggling Desync payloads for CLTE and TECL style attacks.
+- [smugglex](github.com/hahwul/smugglex) - Rust-powered HTTP Request Smuggling Scanner.  
 
 ### Server Side Request Forgery
 
@@ -377,7 +386,10 @@
 - [tplmap](https://github.com/epinna/tplmap) - Server-Side Template Injection and Code Injection Detection and Exploitation Tool
 - [SSTImap](https://github.com/vladko312/SSTImap) - Automatic SSTI detection tool with interactive interface
 
----
+
+### Web-Cache-Poisoning 
+- [toxicache](https://github.com/xhzeem/toxicache) - Go scanner to find web cache poisoning vulnerabilities in a list of URLs .
+
 
 ## Miscellaneous
 
