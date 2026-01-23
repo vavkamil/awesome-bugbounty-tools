@@ -15,6 +15,7 @@
     - [Parameters](#Parameters)
     - [Fuzzing](#Fuzzing)
     - [Monitoring](#Monitoring)
+    - [Waf Evasion ](#Waf-Evasion)
 
 - [Exploitation](#Exploitation)
     - [Command Injection](#Command-Injection)
@@ -389,6 +390,14 @@
 
 ### Web-Cache-Poisoning 
 - [toxicache](https://github.com/xhzeem/toxicache) - Go scanner to find web cache poisoning vulnerabilities in a list of URLs .
+
+### Waf Evasion
+
+- [nomore403](https://github.com/devploit/nomore403) - 🚫 Advanced tool for security researchers to bypass 403/40X restrictions .
+
+#burpSuite Plugin :
+- [toxicache](https://github.com/assetnote/nowafpls/) - Burp Plugin to Bypass WAFs through the insertion of Junk Data .
+
 
 
 ## Miscellaneous
