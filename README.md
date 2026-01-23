@@ -390,15 +390,16 @@
 
 ### Web-Cache-Poisoning 
 - [toxicache](https://github.com/xhzeem/toxicache) - Go scanner to find web cache poisoning vulnerabilities in a list of URLs .
+---
 
-### Waf Evasion
-
+## Waf Evasion
+#cli :
 - [nomore403](https://github.com/devploit/nomore403) - 🚫 Advanced tool for security researchers to bypass 403/40X restrictions .
 
 #burpSuite Plugin :
 - [toxicache](https://github.com/assetnote/nowafpls/) - Burp Plugin to Bypass WAFs through the insertion of Junk Data .
 
-
+---
 
 ## Miscellaneous
 
