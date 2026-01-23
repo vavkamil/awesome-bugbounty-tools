@@ -392,8 +392,8 @@
 - [toxicache](https://github.com/xhzeem/toxicache) - Go scanner to find web cache poisoning vulnerabilities in a list of URLs .
 ---
 
-## Waf Evasion
-#cli :
+### Waf Evasion
+- cli :
 
 - [nomore403](https://github.com/devploit/nomore403) - 🚫 Advanced tool for security researchers to bypass 403/40X restrictions .
 
@@ -401,7 +401,7 @@
 
 - [Forbidden Buster](https://github.com/Sn1r/Forbidden-Buster) - A tool designed to automate various techniques in order to bypass HTTP 401 and 403 response codes and gain access to unauthorized areas in the system.
 
-#burpSuite Plugin :
+- burpSuite Plugin :
 - [nowafpls](https://github.com/assetnote/nowafpls/) - Burp Plugin to Bypass WAFs through the insertion of Junk Data .
   
 ---
