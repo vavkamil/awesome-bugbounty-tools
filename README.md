@@ -538,6 +538,7 @@
 - [OWASP ZAP](https://github.com/zaproxy/zaproxy) -  World’s most popular free web security tools and is actively maintained by a dedicated international team of volunteers
 - [SSTImap](https://github.com/vladko312/SSTImap) -  SSTImap is a penetration testing software that can check websites for Code Injection and Server-Side Template Injection vulnerabilities and exploit them, giving access to the operating system itself.
 - [Lonkero](https://github.com/bountyyfi/lonkero) - Enterprise-grade web vulnerability scanner with 60+ attack modules, built in Rust for penetration testing and security assessments.
+- [nullsec-webscan](https://github.com/bad-antics/nullsec-webscan) - Web vulnerability scanner with automated reconnaissance, SQL injection, XSS, and SSRF detection for bug bounty hunters.
 
 ### Forbidden Bypass
 
