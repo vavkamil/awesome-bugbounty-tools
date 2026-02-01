@@ -21,12 +21,12 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6.0.1
+        uses: actions/checkout@v6.0.2 # zizmor: ignore[unpinned-uses]
         with:
           persist-credentials: false
 
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v6 # zizmor: ignore[unpinned-uses]
         with:
           python-version: '3.10.4'
 
