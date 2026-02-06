@@ -489,6 +489,7 @@
 - [wpscan](https://github.com/wpscanteam/wpscan) - WPScan is a free, for non-commercial use, black box WordPress security scanner
 - [WPSpider](https://github.com/cyc10n3/WPSpider) - A centralized dashboard for running and scheduling WordPress scans powered by wpscan utility.
 - [wprecon](https://github.com/blackcrw/wprecon) - Wordpress Recon
+- [Temodar Agent](https://github.com/xeloxa/temodar-agent) - AI-powered WordPress plugin/theme security analysis platform with Semgrep-based static analysis and agent-assisted investigation workflows
 - [CMSmap](https://github.com/Dionach/CMSmap) -  CMSmap is a python open source CMS scanner that automates the process of detecting security flaws of the most popular CMSs.
 - [joomscan](https://github.com/OWASP/joomscan) - OWASP Joomla Vulnerability Scanner Project
 - [pyfiscan](https://github.com/fgeek/pyfiscan) - Free web-application vulnerability and version scanner
