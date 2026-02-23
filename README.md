@@ -549,6 +549,7 @@
 - [OWASP ZAP](https://github.com/zaproxy/zaproxy) -  World’s most popular free web security tools and is actively maintained by a dedicated international team of volunteers
 - [SSTImap](https://github.com/vladko312/SSTImap) -  SSTImap is a penetration testing software that can check websites for Code Injection and Server-Side Template Injection vulnerabilities and exploit them, giving access to the operating system itself.
 - [Lonkero](https://github.com/bountyyfi/lonkero) - Enterprise-grade web vulnerability scanner with 60+ attack modules, built in Rust for penetration testing and security assessments.
+- [PageGuard](https://pageguard.qiudeqiu.workers.dev) - Free website health scanner providing automated SEO audit, performance analysis, WCAG 2.1 accessibility scanning, and AI-powered action plans. Open source (MIT): https://github.com/sleepyxpad-jpg/pageguard
 
 
 ### Permutation
