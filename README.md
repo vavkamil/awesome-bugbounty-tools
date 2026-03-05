@@ -125,6 +125,7 @@
 - [scrying](https://github.com/nccgroup/scrying) - A tool for collecting RDP, web and VNC screenshots all in one place
 - [Depix](https://github.com/beurtschipper/Depix) - Recovers passwords from pixelized screenshots
 - [httpscreenshot](https://github.com/breenmachine/httpscreenshot/) - HTTPScreenshot is a tool for grabbing screenshots and HTML of large numbers of websites.
+- [Frostbyte Screenshot API](https://frostbyte-landing.vercel.app) - REST API for taking website screenshots programmatically, supports custom viewport sizes, full-page capture, and multiple output formats
 
 ### Technologies
 
