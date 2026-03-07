@@ -585,7 +585,9 @@
 
 ### AI Agents
 
-- [shannon](https://github.com/KeygraphHQ/shannon) - Fully autonomous AI hacker to find actual exploits in your web apps. 
+- [shannon](https://github.com/KeygraphHQ/shannon) - Fully autonomous AI hacker to find actual exploits in your web apps.
+- [Fray](https://github.com/dalisecurity/Fray) - WAF security testing toolkit with 14 MCP tools for AI-assisted bypass via Claude Desktop, ChatGPT, and Cursor.
+
 
 ---
 
