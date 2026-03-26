@@ -40,4 +40,4 @@ jobs:
           pip install $(grep '^zizmor==' requirements.txt)
 
       - name: Run Zizmor
-        run: zizmor --config zizmor.yml .github/workflows
+        run: zizmor .github/workflows
