@@ -409,6 +409,8 @@
 - [XFFenum](https://github.com/vavkamil/XFFenum) - A simple tool to bypass 403 forbidden end-points behind load balancers (Cloudflare) based on X-Forwarded-For header.
 - [Forbidden Buster](https://github.com/Sn1r/Forbidden-Buster) - A tool designed to automate various techniques in order to bypass HTTP 401 and 403 response codes and gain access to unauthorized areas in the system.
 - [nowafpls](https://github.com/assetnote/nowafpls/) - Burp Plugin to Bypass WAFs through the insertion of Junk Data.
+- - [Fray](https://github.com/dalisecurity/Fray) - Open-source WAF bypass toolkit with 6,300+ payloads, AI-assisted evasion, 25-vendor detection, and 27-check reconnaissance pipeline.
+
   
 ---
 
