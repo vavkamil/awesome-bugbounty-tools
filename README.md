@@ -452,6 +452,7 @@
 - [SecretFinder](https://github.com/m4ll0k/SecretFinder) - A python script for finding sensitive data (apikeys, accesstoken,jwt,..) and search anything on javascript files.
 - [js-snitch](https://github.com/vavkamil/js-snitch) - Scans remote JavaScript files with Trufflehog + Semgrep to detect leaked secrets.
 - [keyhacks](https://github.com/streaak/keyhacks) - KeyHacks shows methods to validate different API keys found on a Bug Bounty Program or a pentest.
+- [keyFinder](https://github.com/momenbasel/keyFinder) - A Chrome extension that passively scans web pages for API keys, tokens, and secrets using 80+ regex patterns and Shannon entropy analysis across 10 attack surfaces.
 
 
 ### Git
@@ -550,6 +551,7 @@
 - [OWASP ZAP](https://github.com/zaproxy/zaproxy) -  World’s most popular free web security tools and is actively maintained by a dedicated international team of volunteers
 - [SSTImap](https://github.com/vladko312/SSTImap) -  SSTImap is a penetration testing software that can check websites for Code Injection and Server-Side Template Injection vulnerabilities and exploit them, giving access to the operating system itself.
 - [Lonkero](https://github.com/bountyyfi/lonkero) - Enterprise-grade web vulnerability scanner with 60+ attack modules, built in Rust for penetration testing and security assessments.
+- [VulnHawk](https://github.com/momenbasel/vulnhawk) - AI-powered code security scanner that finds business logic vulnerabilities (missing auth checks, IDOR, logic bugs) that traditional SAST tools miss. Supports Python, JS/TS, and Go. CLI + GitHub Action.
 
 
 ### Permutation
