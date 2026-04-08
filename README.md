@@ -550,6 +550,7 @@
 - [OWASP ZAP](https://github.com/zaproxy/zaproxy) -  World’s most popular free web security tools and is actively maintained by a dedicated international team of volunteers
 - [SSTImap](https://github.com/vladko312/SSTImap) -  SSTImap is a penetration testing software that can check websites for Code Injection and Server-Side Template Injection vulnerabilities and exploit them, giving access to the operating system itself.
 - [Lonkero](https://github.com/bountyyfi/lonkero) - Enterprise-grade web vulnerability scanner with 60+ attack modules, built in Rust for penetration testing and security assessments.
+- [VulnHawk](https://github.com/momenbasel/vulnhawk) - AI-powered code security scanner that finds business logic vulnerabilities (missing auth checks, IDOR, logic bugs) that traditional SAST tools miss. Supports Python, JS/TS, and Go. CLI + GitHub Action.
 
 
 ### Permutation
