@@ -2,6 +2,7 @@
 
 > A curated list of various bug bounty tools
 
+- [Gitstar](https://dev.gitstar.ai?utm_medium=github_readme&utm_source=awesome_list&utm_campaign=vavkamil_awesome-bugbounty-tools) - Follow developers on GitHub and see what repos they star. Like a social feed for repo discovery.
 ## Contents
 
 - [Recon](#Recon)
