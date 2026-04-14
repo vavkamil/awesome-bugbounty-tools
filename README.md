@@ -587,7 +587,8 @@
 
 ### AI Agents
 
-- [shannon](https://github.com/KeygraphHQ/shannon) - Fully autonomous AI hacker to find actual exploits in your web apps. 
+- [shannon](https://github.com/KeygraphHQ/shannon) - Fully autonomous AI hacker to find actual exploits in your web apps.
+- [PentestGPT](https://github.com/GreyDGL/PentestGPT) - AI-powered penetration testing assistant that helps automate security testing workflows and vulnerability discovery.
 
 ---
 
