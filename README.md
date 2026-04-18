@@ -207,6 +207,7 @@
 
 - [bbscope](https://github.com/sw33tLie/bbscope) - Scope aggregation tool for HackerOne, Bugcrowd, Intigriti, YesWeHack, Immunefi
 - [jsmon](https://github.com/robre/jsmon) - A Javascript change monitoring tool for Bug Bounty.
+- [Snaplert](https://snaplert.com) - Hosted website change monitoring with AI-powered visual diffs, element-level zone picker, and email alerts with before/after screenshots.
 
 ---
 
