@@ -583,6 +583,7 @@
 - [qsreplace](https://github.com/tomnomnom/qsreplace) -  Accept URLs on stdin, replace all query string values with a user-supplied value 
 - [interactsh](https://github.com/projectdiscovery/interactsh) - Interactsh is an open-source tool for detecting out-of-band interactions. It is a tool designed to detect vulnerabilities that cause external interactions.
 - [CyberChef](https://github.com/gchq/CyberChef) - The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis
+- [HackMyIP](https://hackmyip.com/) - Free online security toolkit with 20+ browser-based tools: IP lookup, DNS lookup, port scanner, email breach checker, WebRTC/DNS leak tests, browser fingerprinting, subnet calculator, and more
 - [notify](https://github.com/projectdiscovery/notify) - Notify is a Go-based assistance package that enables you to stream the output of several tools (or read from a file) and publish it to a variety of supported platforms.
 
 ### AI Agents
