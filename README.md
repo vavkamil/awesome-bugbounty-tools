@@ -158,6 +158,7 @@
 - [kiterunner](https://github.com/assetnote/kiterunner) - Fast API endpoint bruteforcer and content discovery tool for modern web applications.
 - [vaf](https://github.com/andreiverse/vaf) - Vaf is a cross-platform very advanced and fast web fuzzer written in nim .
 - [uncover](https://github.com/projectdiscovery/uncover) - uncover is a go wrapper using APIs of well known search engines to quickly discover exposed hosts on the internet.
+- [UnMapper](https://github.com/weirdmachine64/UnMapper) - Sourcemap crawler and unpacker. Crawls a target, finds its javascript, and reconstructs the original source tree from any discovered sourcemaps.
 
 ### Content Filtering
 - [Hacker-Scoper](https://github.com/ItsIgnacioPortal/Hacker-Scoper) - CLI tool for filtering a mixed list of targets (URLs/IPs) according to the bug-bounty program's scope. The scope can be supplied manually, or it can also be detected automatically by just giving hacker-scoper the name of the targeted company. Hacker-Scoper supports IPs, URLs, wildcards, CIDR ranges, Nmap octet ranges, and even full Regex scopes.
