@@ -102,7 +102,8 @@
 - [csprecon](https://github.com/edoardottt/csprecon) - Discover new target domains using Content Security Policy 
 - [related-domains](https://github.com/gwen001/related-domains) - Find related domains of a given domain. this tool search for domains that have been registered by the same peoples/companies.
 - [hakip2host](https://github.com/hakluke/hakip2host) - hakip2host takes a list of IP addresses via stdin, then does a series of checks to return associated domain names.
-
+- [BugBounty Arsenal Resources](https://github.com/FoxVR-sudo/bugbounty-arsenal-resources) - Curated recon workflows, web testing references and security resources for bug bounty hunters and web developers.
+  
 ### Port Scanning
 
 - [masscan](https://github.com/robertdavidgraham/masscan) - TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes.
