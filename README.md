@@ -208,6 +208,7 @@
 
 - [bbscope](https://github.com/sw33tLie/bbscope) - Scope aggregation tool for HackerOne, Bugcrowd, Intigriti, YesWeHack, Immunefi
 - [jsmon](https://github.com/robre/jsmon) - A Javascript change monitoring tool for Bug Bounty.
+- [reconsentry](https://github.com/maruftak/reconsentry) - Continuous attack-surface change monitor that alerts when a new subdomain, live host, endpoint, or technology appears on authorized targets.
 
 ---
 
