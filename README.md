@@ -542,6 +542,7 @@
 - [jaeles](https://github.com/jaeles-project/jaeles) - The Swiss Army knife for automated Web Application Testing
 - [retire.js](https://github.com/RetireJS/retire.js) - scanner detecting the use of JavaScript libraries with known vulnerabilities
 - [Osmedeus](https://github.com/j3ssie/Osmedeus) - Fully automated offensive security framework for reconnaissance and vulnerability scanning
+- [Vigolium](https://github.com/vigolium/vigolium) - High-fidelity vulnerability scanner fusing agentic AI with native speed, modularity, and precision
 - [getsploit](https://github.com/vulnersCom/getsploit) - Command line utility for searching and downloading exploits
 - [flan](https://github.com/cloudflare/flan) - A pretty sweet vulnerability scanner
 - [Findsploit](https://github.com/1N3/Findsploit) - Find exploits in local and online databases instantly
