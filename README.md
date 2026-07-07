@@ -1,5 +1,5 @@
 # Awesome Bug Bounty Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-
+ 
 > A curated list of various bug bounty tools
 
 ## Contents
