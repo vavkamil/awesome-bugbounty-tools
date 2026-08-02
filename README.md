@@ -554,7 +554,7 @@
 - [SSTImap](https://github.com/vladko312/SSTImap) -  SSTImap is a penetration testing software that can check websites for Code Injection and Server-Side Template Injection vulnerabilities and exploit them, giving access to the operating system itself.
 - [Lonkero](https://github.com/bountyyfi/lonkero) - Enterprise-grade web vulnerability scanner with 60+ attack modules, built in Rust for penetration testing and security assessments.
 - [OWASP PTK](https://github.com/DenisPodgurskii/pentestkit) -  Browser-based vulnerability scanner for bug bounty and pentesting workflows, combining DAST, SAST, IAST, and SCA capabilities to detect runtime, source-level, interactive, and dependency-related security issues.
-- [HunterX](https://github.com/nullc0d30/HunterX) - Web application and API vulnerability scanner with optional AI-assisted analysis
+- [HunterX](https://github.com/nullc0d30/HunterX) - Web application and API vulnerability scanner with optional AI-assisted analysis by Ahmed Awad (NullC0d3)
 
 
 ### Permutation
