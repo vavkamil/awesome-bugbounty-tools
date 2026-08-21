@@ -594,6 +594,7 @@
 - [shannon](https://github.com/KeygraphHQ/shannon) - Fully autonomous AI hacker to find actual exploits in your web apps.
 - [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open source (GPL-3.0) autonomous AI penetration testing platform that orchestrates 80+ tools over MCP with dedicated per-technology offensive sub-agents (GraphQL, Spring Boot, ASP.NET, Node.js, Flask, PHP, Ruby) and a per-finding evidence trail.
 - [PentestGPT](https://github.com/GreyDGL/PentestGPT) - AI-powered penetration testing assistant that helps automate security testing workflows and vulnerability discovery.
+- [Bounty-Shield](https://github.com/dodz2/bounty-shield) \- Detect fake open-source bounties before wasting time on them: scores GitHub bounty issues on two axes (authenticity TRAP / PROVEN PAYER, exploitability) using 11 weighted checks and a hashed field memory of known scam accounts. Zero-dependency Python CLI.
 
 ---
 
