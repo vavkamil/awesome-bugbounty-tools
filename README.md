@@ -534,6 +534,7 @@
 ### Vulnerability Scanners
 
 - [nuclei](https://github.com/projectdiscovery/nuclei) - Nuclei is a fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use.
+- [ReconStrike-ng](https://github.com/Un-9oon/ReconStrike-ng) - Advanced vulnerability assessment and network reconnaissance framework with 43+ concurrent scanning modules.
 - [nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) - Community curated list of templates for the nuclei engine to find security vulnerabilities.
 - [Sn1per](https://github.com/1N3/Sn1per) - Automated pentest framework for offensive security experts
 - [metasploit-framework](https://github.com/rapid7/metasploit-framework) - Metasploit Framework
