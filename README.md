@@ -261,6 +261,7 @@
 
 ### Header Injection
 
+- [HeaderProof](https://github.com/TayfurYldz/headerproof) - Evidence-gated active scanner for header injection, CORS, CSRF, cache poisoning, and content spoofing signals.
 - [headi](https://github.com/mlcsec/headi) - Customisable and automated HTTP header injection.
 
 ### Insecure Deserialization
