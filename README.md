@@ -271,6 +271,7 @@
 ### Insecure Direct Object References
 
 - [Autorize](https://github.com/Quitten/Autorize) - Automatic authorization enforcement detection extension for burp suite written in Jython developed by Barak Tawily
+- [LeakRadar](https://github.com/Ajmax76/leakradar) - Open-source CLI DAST scanner for automated BOLA/IDOR vulnerability testing on REST APIs.
 
 ### Open Redirect
 
