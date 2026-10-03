@@ -509,6 +509,7 @@
 
 ### Subdomain Takeover
 
+- [SubSniper](https://github.com/AmirDiaz/subsniper) - Fast, zero-dependency subdomain takeover scanner. One file, pure Python stdlib — passive enum, DNS triage, raw-UDP CNAME extraction, 40+ takeover fingerprints, markdown/JSON reports.
 - [subjack](https://github.com/haccer/subjack) - Subdomain Takeover tool written in Go
 - [SubOver](https://github.com/Ice3man543/SubOver) - A Powerful Subdomain Takeover Tool
 - [autoSubTakeover](https://github.com/JordyZomer/autoSubTakeover) - A tool used to check if a CNAME resolves to the scope address. If the CNAME resolves to a non-scope address it might be worth checking out if subdomain takeover is possible.
