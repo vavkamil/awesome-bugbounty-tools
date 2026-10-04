@@ -289,6 +289,7 @@
 
 ### Request Smuggling
 
+- [HTTP Request Smuggler](https://github.com/PortSwigger/http-request-smuggler) - Burp Suite extension for detecting and exploiting HTTP Request Smuggling and desynchronization vulnerabilities.
 - [http-request-smuggling](https://github.com/anshumanpattnaik/http-request-smuggling) - HTTP Request Smuggling Detection Tool
 - [smuggler](https://github.com/defparam/smuggler) - Smuggler - An HTTP Request Smuggling / Desync testing tool written in Python 3
 - [h2csmuggler](https://github.com/BishopFox/h2csmuggler) - HTTP Request Smuggling over HTTP/2 Cleartext (h2c)
