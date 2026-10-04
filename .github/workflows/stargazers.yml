@@ -4,6 +4,9 @@ on:
   pull_request:
     paths:
       - 'README.md'
+      - '.github/workflows/stargazers.yml'
+      - '.github/scripts/extract_added_urls.py'
+      - '.github/scripts/test_extract_added_urls.py'
 
 permissions: {}
 
@@ -24,15 +27,17 @@ jobs:
           fetch-depth: 0
           persist-credentials: false
 
+      - name: Test added URL extraction
+        run: python3 -m unittest discover -s .github/scripts -p 'test_extract_added_urls.py'
+
       - name: Extract newly added URLs and GitHub repo links
         run: |
           # On pull_request, HEAD is GitHub's synthetic merge commit and HEAD^1 is the base.
           git diff --unified=0 HEAD^1 HEAD -- README.md > diff.txt
 
-          # Extract ALL added https:// URLs from added (+) lines
-          sed -n 's/^+.*\(https:\/\/[^ )]*\).*/\1/p' diff.txt \
-            | sort -u > added_urls.txt || true
-          touch added_urls.txt
+          # Extract every added HTTP(S) URL, including multiple links on one line.
+          # Keep HTTP URLs so the existing non-GitHub check can reject them.
+          python3 .github/scripts/extract_added_urls.py < diff.txt > added_urls.txt
 
           # Extract only GitHub URLs from the added URLs
           grep '^https://github\.com/' added_urls.txt > new_links.txt || true
