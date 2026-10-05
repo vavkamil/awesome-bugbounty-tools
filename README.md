@@ -256,6 +256,7 @@
 - [shapeshifter](https://github.com/szski/shapeshifter) - GraphQL security testing tool
 - [graphql_beautifier](https://github.com/zidekmat/graphql_beautifier) - Burp Suite extension to help make Graphql request more readable
 - [clairvoyance](https://github.com/nikitastupin/clairvoyance) - Obtain GraphQL API schema despite disabled introspection!
+- [graphql-cop](https://github.com/dolevf/graphql-cop) - A Python utility for auditing GraphQL APIs for common security issues, including DoS, CSRF, and information leaks.
 
 ### Header Injection
 
