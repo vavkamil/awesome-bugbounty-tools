@@ -560,6 +560,7 @@
 
 ### Web Proxy and Traffic Interception
 
+- [Hugin](https://hugin.nu) - Intercepting proxy, vulnerability scanner (64 active + 48 passive checks), intruder, repeater, race-condition engine and an AI agent over 174 MCP tools — one native Rust binary, no JVM. Free Community tier; the offensive bundle is Pro.
 - [mitmproxy](https://github.com/mitmproxy/mitmproxy) - An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.
 - [proxify](https://github.com/projectdiscovery/proxify) - A versatile and portable proxy for capturing, manipulating, and replaying HTTP/HTTPS traffic on the go.
 - [FoxyProxy Browser Extension](https://github.com/foxyproxy/browser-extension) - FoxyProxy is an open-source, advanced proxy management tool that completely replaces Chrome's limited proxying capabilities.
