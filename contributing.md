@@ -1,25 +1,22 @@
 # Contribution Guidelines
 
-Please note that this project is released with a
-[Contributor Code of Conduct](code-of-conduct.md). By participating in this
-project you agree to abide by its terms.
+Please follow the [Code of Conduct](code-of-conduct.md) when participating in this project.
 
----
+## Adding or updating a tool
 
-Ensure your pull request adheres to the following guidelines:
+- Add the tool under the most relevant existing section in `README.md`.
+- Use an HTTPS link to the tool's public GitHub repository and a short, factual description.
+- Check that the repository exists, has at least 50 stars, and is not already listed.
+- Keep the existing Markdown list format. Update the table of contents only when you add, remove, or rename a heading.
 
-- Make sure you take care of this
-- And this as well
-- And don't forget to check this
+The pull request workflow checks new README links for valid GitHub repositories, duplicate entries, and the 50-star minimum. Non-GitHub links are rejected.
 
-Thank you for your suggestions!
+## Before opening a pull request
 
+Run the offline regression tests:
 
-## Updating your PR
+```sh
+python3 -m unittest discover -s .github/scripts -p 'test_extract_added_urls.py'
+```
 
-A lot of times, making a PR adhere to the standards above can be difficult.
-If the maintainers notice anything that we'd like changed, we'll ask you to
-edit your PR before we merge it. There's no need to open a new PR, just edit
-the existing one. If you're not sure how to do that,
-[here is a guide](https://github.com/RichardLitt/knowledge/blob/master/github/amending-a-commit-guide.md)
-on the different ways you can update your PR so that we can merge it.
+Then review the pull request checklist and describe the change clearly.
