@@ -4,6 +4,9 @@ on:
   pull_request:
     paths:
       - 'README.md'
+      - '.github/workflows/stargazers.yml'
+      - '.github/scripts/extract_added_urls.py'
+      - '.github/scripts/test_extract_added_urls.py'
 
 permissions: {}
 
@@ -24,18 +27,20 @@ jobs:
           fetch-depth: 0
           persist-credentials: false
 
+      - name: Test added URL extraction
+        run: python3 -m unittest discover -s .github/scripts -p 'test_extract_added_urls.py'
+
       - name: Extract newly added URLs and GitHub repo links
         run: |
           # On pull_request, HEAD is GitHub's synthetic merge commit and HEAD^1 is the base.
           git diff --unified=0 HEAD^1 HEAD -- README.md > diff.txt
 
-          # Extract ALL added https:// URLs from added (+) lines
-          sed -n 's/^+.*\(https:\/\/[^ )]*\).*/\1/p' diff.txt \
-            | sort -u > added_urls.txt || true
-          touch added_urls.txt
+          # Extract every added HTTP(S) URL, including multiple links on one line.
+          # Keep HTTP URLs so the existing non-GitHub check can reject them.
+          python3 .github/scripts/extract_added_urls.py < diff.txt > added_urls.txt
 
           # Extract only GitHub URLs from the added URLs
-          grep '^https://github\.com/' added_urls.txt > new_links.txt || true
+          grep -i '^https://github\.com/' added_urls.txt > new_links.txt || true
           touch new_links.txt
 
           echo "All added URLs:"
@@ -45,17 +50,19 @@ jobs:
           cat new_links.txt || echo "None"
 
           # Extract ALL GitHub URLs from the current README (after PR changes)
-          grep -o 'https://github.com/[^ )]*' README.md > all_github_urls.txt || true
+          grep -Eio 'https://github\.com/[^ )]*' README.md > all_github_urls.txt || true
           touch all_github_urls.txt
 
           # Normalize all GitHub URLs in README to owner/repo
-          sed -E 's#https://github.com/([^/]+/[^/]+).*#\1#' all_github_urls.txt \
+          sed -E 's#https://github\.com/([^/]+/[^/]+).*#\1#I' all_github_urls.txt \
+            | tr '[:upper:]' '[:lower:]' \
             | sed '/^$/d' \
             | sort > all_repos.txt || true
           touch all_repos.txt
 
           # Normalize only newly added GitHub URLs to owner/repo
-          sed -E 's#https://github.com/([^/]+/[^/]+).*#\1#' new_links.txt \
+          sed -E 's#https://github\.com/([^/]+/[^/]+).*#\1#I' new_links.txt \
+            | tr '[:upper:]' '[:lower:]' \
             | sed '/^$/d' \
             | sort -u > new_repos.txt || true
           touch new_repos.txt
@@ -69,7 +76,7 @@ jobs:
       - name: Warn on non-GitHub links
         run: |
           # Any URLs not starting with https://github.com/
-          grep -v '^https://github\.com/' added_urls.txt > non_github.txt || true
+          grep -vi '^https://github\.com/' added_urls.txt > non_github.txt || true
           touch non_github.txt
 
           if [ -s non_github.txt ]; then
@@ -87,7 +94,7 @@ jobs:
           # For each newly added repo, check how many times it appears in all_repos.txt
           while read -r repo; do
             [ -z "$repo" ] && continue
-            count=$(grep -c "^$repo$" all_repos.txt || true)
+            count=$(grep -Fxc -- "$repo" all_repos.txt || true)
             if [ "$count" -gt 1 ]; then
               echo "$repo" >> duplicates.txt
             fi
