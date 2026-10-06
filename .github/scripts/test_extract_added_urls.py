@@ -42,12 +42,19 @@ class ExtractAddedUrlsTests(unittest.TestCase):
             ["https://example.invalid/tool", "https://github.com/example/tool"],
         )
 
-    def test_http_and_case_variant_schemes_are_not_silently_skipped(self):
+    def test_scheme_and_host_are_normalized_case_insensitively(self):
         self.assertEqual(
             extract_added_urls(
-                HEADER + "+http://example.invalid/tool HTTPS://example.invalid/other\n"
+                HEADER
+                + "+http://example.invalid/tool "
+                + "HTTPS://example.invalid/other "
+                + "HTTPS://GITHUB.com/example/Tool\n"
             ),
-            ["HTTPS://example.invalid/other", "http://example.invalid/tool"],
+            [
+                "http://example.invalid/tool",
+                "https://example.invalid/other",
+                "https://github.com/example/Tool",
+            ],
         )
 
     def test_removed_and_context_lines_are_ignored(self):
