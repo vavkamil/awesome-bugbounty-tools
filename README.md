@@ -492,6 +492,8 @@
 - [pyfiscan](https://github.com/fgeek/pyfiscan) - Free web-application vulnerability and version scanner
 - [aemhacker](https://github.com/0ang3el/aem-hacker) - Tools to identify vulnerable Adobe Experience Manager (AEM) webapps.
 - [aemscan](https://github.com/Raz0r/aemscan) - Adobe Experience Manager Vulnerability Scanner
+- [FenrirLVX](https://github.com/leviathan-offsec/FenrirLVX) - High-speed Go CLI for WordPress attack surface mapping, plugin fingerprinting, and offline CVE correlation.
+
 
 
 ### JSON Web Token
