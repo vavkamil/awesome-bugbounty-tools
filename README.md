@@ -524,6 +524,8 @@
 - [takeover](https://github.com/mzfr/takeover) - A tool for testing subdomain takeover possibilities at a mass scale.
 - [dnsReaper](https://github.com/punk-security/dnsReaper) - DNS Reaper is yet another sub-domain takeover tool, but with an emphasis on accuracy, speed and the number of signatures in our arsenal!
 - [subzy](https://github.com/PentestPad/subzy) - Subdomain takeover tool which works based on matching response fingerprints from `can-i-take-over-xyz`.
+- [HostageLVX](https://github.com/leviathan-offsec/HostageLVX) - High-speed dangling DNS and subdomain takeover engine in Go.
+
 
 ### Vulnerability Scanners
 
