@@ -222,6 +222,7 @@
 - [CORStest](https://github.com/RUB-NDS/CORStest) - A simple CORS misconfiguration scanner
 - [cors-scanner](https://github.com/laconicwolf/cors-scanner) - A multi-threaded scanner that helps identify CORS flaws/misconfigurations
 - [CorsMe](https://github.com/Shivangx01b/CorsMe) - Cross Origin Resource Sharing MisConfiguration Scanner
+- [CorsOne](https://github.com/omranisecurity/CorsOne) - Fast CORS Misconfiguration Discovery Tool
 
 ### CRLF Injection
 
