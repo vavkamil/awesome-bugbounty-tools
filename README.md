@@ -98,6 +98,7 @@
 - [crt.go](https://github.com/TaurusOmar/crt.sh) - This Go script simplifies the process of efficiently saving and analyzing subdomain output from the crt.sh website.
 - [github-subdomains](https://github.com/gwen001/github-subdomains) - This Go tool performs searches on GitHub and parses the results to find subdomains of a given domain.
 - [gitlab-subdomains](https://github.com/gwen001/gitlab-subdomains) - This Go tool performs searches on GitLab and parses the results to find subdomains of a given domain.
+- [cl0q](https://cl0q.com) - Open search engine for domain research & OSINT — 44.1M domains indexed, free API tier.
 
 ### Port Scanning
 
