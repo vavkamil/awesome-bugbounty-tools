@@ -206,6 +206,7 @@
 
 - [bbscope](https://github.com/sw33tLie/bbscope) - Scope aggregation tool for HackerOne, Bugcrowd, Intigriti, YesWeHack, Immunefi
 - [jsmon](https://github.com/robre/jsmon) - A Javascript change monitoring tool for Bug Bounty.
+- [TargetFinder](https://github.com/NaroChatyan/targetfinder) - Self-hosted scope and change tracker for HackerOne, Bugcrowd, Intigriti, YesWeHack, HackenProof and Sherlock: new programs, new targets, fee and reward changes, pushes to in-scope repos; CLI, HTTP API and MCP server
 
 ---
 
