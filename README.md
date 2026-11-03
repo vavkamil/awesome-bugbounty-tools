@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/vavkamil-awesome-bugbounty-tools-badge.png)](https://mseep.ai/app/vavkamil-awesome-bugbounty-tools)
+
 # Awesome Bug Bounty Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated list of various bug bounty tools
