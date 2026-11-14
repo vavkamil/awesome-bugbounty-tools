@@ -272,6 +272,7 @@
 ### Insecure Direct Object References
 
 - [Autorize](https://github.com/Quitten/Autorize) - Automatic authorization enforcement detection extension for burp suite written in Jython developed by Barak Tawily
+- [ReproCase](https://github.com/theasbug/reprocase) - Reproduce IDOR/BOLA findings with fresh accounts and resources, and get a reproduced / not reproduced / inconclusive verdict
 
 ### Open Redirect
 
