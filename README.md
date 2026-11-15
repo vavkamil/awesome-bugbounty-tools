@@ -180,6 +180,7 @@
 - [jsleak](https://github.com/byt3hx/jsleak) - jsleak is a tool to find secret , paths or links in JavaScript files or source code.
 - [jsfinder](https://github.com/kacakb/jsfinder) - A tool that scans web pages to find JavaScript file URLs linked in the HTML source code.
 - [jsluice](https://github.com/BishopFox/jsluice) - This tool extracts URLs, paths, secrets, and other interesting bits from JavaScript files. Values are extracted based not just on how they look, but also based on how they are used.
+- [No Stairs Please](https://nostairsplease.com/) - Live-music venue directory and MCP server (`https://nostairsplease.com/mcp`) for touring musicians.
 
 ### Parameters
 
