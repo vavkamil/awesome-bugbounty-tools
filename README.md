@@ -614,7 +614,7 @@
 - [cvemap](https://github.com/projectdiscovery/cvemap) - Modern CLI for exploring vulnerability data with powerful search, filtering, and analysis capabilities.
 - [cut-cdn](https://github.com/ImAyrix/cut-cdn) - Removing CDN IPs from the list of IP addresses.
 - [ds_store_exp](https://github.com/lijiejie/ds_store_exp) - A .DS_Store file disclosure exploit. It parses .DS_Store file and downloads files recursively.
-- - [GlyphProbe](https://github.com/enesbaldemir/glyphprobe) - Chrome extension that detects how an application transforms input (Unicode normalization, case mapping, Windows best-fit) to find filter bypasses where validation runs before the transform.
+- [GlyphProbe](https://github.com/enesbaldemir/glyphprobe) - Chrome extension that detects how an application transforms input (Unicode normalization, case mapping, Windows best-fit) to find filter bypasses where validation runs before the transform.
 
 ---
 
