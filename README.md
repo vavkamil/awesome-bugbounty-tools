@@ -568,6 +568,7 @@
 - [FoxyProxy Browser Extension](https://github.com/foxyproxy/browser-extension) - FoxyProxy is an open-source, advanced proxy management tool that completely replaces Chrome's limited proxying capabilities.
 - [zaproxy](https://github.com/zaproxy/zaproxy) - ZAP is what is known as a “manipulator-in-the-middle proxy.” It stands between the tester’s browser and the web application so that it can intercept and inspect messages sent between browser and web application, modify the contents if needed, and then forward those packets on to the destination.
 - [hetty](https://github.com/dstotijn/hetty) - hetty is a free opensource alternative to Burpsuite pro
+- [TorGrid](https://github.com/localhost-server/TorGrid) - Self-healing multi-circuit Tor proxy appliance exposing 100-1,100 parallel unique Exit IPs behind a single local SOCKS5/HTTP port across Linux, Windows, and Android.
 
 ### Origin IP
 
