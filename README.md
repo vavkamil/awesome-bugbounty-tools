@@ -568,6 +568,7 @@
 - [FoxyProxy Browser Extension](https://github.com/foxyproxy/browser-extension) - FoxyProxy is an open-source, advanced proxy management tool that completely replaces Chrome's limited proxying capabilities.
 - [zaproxy](https://github.com/zaproxy/zaproxy) - ZAP is what is known as a “manipulator-in-the-middle proxy.” It stands between the tester’s browser and the web application so that it can intercept and inspect messages sent between browser and web application, modify the contents if needed, and then forward those packets on to the destination.
 - [hetty](https://github.com/dstotijn/hetty) - hetty is a free opensource alternative to Burpsuite pro
+- [ProxyAudit](https://github.com/evilboyajay/proxyaudit) - Open source Burp Suite alternative for macOS with Repeater, unthrottled Intruder, an out-of-band Collaborator and a Claude agent that audits captured endpoints and JS files.
 
 ### Origin IP
 
