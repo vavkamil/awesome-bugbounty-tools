@@ -593,6 +593,7 @@
 - [PentestGPT](https://github.com/GreyDGL/PentestGPT) - AI-powered penetration testing assistant that helps automate security testing workflows and vulnerability discovery.
 - [Agentic Bug Bounty Hunter](https://github.com/Awarexone/Agentic-Bug-Hunter) - Claude Code plugin for autonomous bug bounty hunting across HackerOne, Bugcrowd, Intigriti and Immunefi — 15 skills, 33 commands and 9 agents covering recon-to-report, 21 web vuln classes, web3/meme-coin audits, LLM red-teaming, GraphQL/CORS/JWT/NoSQL scanners and persistent hunt memory. Works with or without a subscription.
 - [RedAmon](https://github.com/samugit83/redamon) - Open source (MIT) self-hosted AI pentest framework that maps the target's attack surface into a graph, exploits from a Kali sandbox with human approval gates, and opens pull requests that fix the findings.
+- [Pentest-Swarm](https://github.com/Armur-Ai/Pentest-Swarm-AI) - Open-source multi-agent AI pentester for web apps and APIs that confirms findings with out-of-band, differential-response and timing checks before reporting them.
 
 ---
 
