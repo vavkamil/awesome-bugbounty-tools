@@ -549,6 +549,7 @@
 - [Lonkero](https://github.com/bountyyfi/lonkero) - Enterprise-grade web vulnerability scanner with 60+ attack modules, built in Rust for penetration testing and security assessments.
 - [OWASP PTK](https://github.com/DenisPodgurskii/pentestkit) -  Browser-based vulnerability scanner for bug bounty and pentesting workflows, combining DAST, SAST, IAST, and SCA capabilities to detect runtime, source-level, interactive, and dependency-related security issues.
 - [Crossfyre Toolchain](https://github.com/clickswave/crossfyre-toolchain) - Rust engines for subdomains, ports, content discovery, fingerprinting and nuclei-compatible templates, with each finding confirmed before it is reported.
+- [VibeShield CLI](https://github.com/zColdWater/vibeshield-cli) - Zero-dependency Node.js scanner for exposed secrets in JS bundles, source maps, CNAME takeover risks, and unauthenticated Supabase/Firebase endpoints.
 
 
 ### Permutation
