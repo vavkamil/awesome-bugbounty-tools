@@ -206,6 +206,7 @@
 
 - [bbscope](https://github.com/sw33tLie/bbscope) - Scope aggregation tool for HackerOne, Bugcrowd, Intigriti, YesWeHack, Immunefi
 - [jsmon](https://github.com/robre/jsmon) - A Javascript change monitoring tool for Bug Bounty.
+- [BountyIndex](https://github.com/Varun2024/Bounty-index) - Bug bounty programs from different platforms in one place, with scope lookup and an MCP server
 
 ---
 
