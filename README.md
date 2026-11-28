@@ -527,6 +527,7 @@
 
 ### Vulnerability Scanners
 
+- [Insomnia Security MCP](https://github.com/vulnz/insomnia-mcp) - Unified offensive security & AppSec MCP server for AI agents (160 tools: multi-language SAST/taint, live secret validation, Web DAST, 21,100+ 1-Day CVE verification, 29-protocol enumeration, OSINT, Cloud/AD audit, Scope Firewall; Streamable HTTP & local CLI).
 - [nuclei](https://github.com/projectdiscovery/nuclei) - Nuclei is a fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use.
 - [nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) - Community curated list of templates for the nuclei engine to find security vulnerabilities.
 - [Sn1per](https://github.com/1N3/Sn1per) - Automated pentest framework for offensive security experts
